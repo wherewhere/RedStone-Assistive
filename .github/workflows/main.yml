@@ -8,10 +8,10 @@ jobs:
     - name: Archive Release
       uses: TheDoctor0/zip-release@0.4.1
       with:
-        filename: 'release.zip'
-        exclusions: '*.git* /*node_modules/* .editorconfig'
+        filename: 'BareBones-RedStone-Addon.mcpack'
+        exclusions: '*.git* /*node_modules/* .editorconfig Images/ LICENSE *.md '
         type: 'zip'
     - uses: actions/upload-artifact@v2
       with:
-        name: my-artifact
+        name: Archive Release
         path: ./release.zip
