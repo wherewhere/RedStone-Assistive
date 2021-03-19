@@ -10,7 +10,7 @@
 <a href="https://github.com/wherewhere/RedStone-Assistive/stargazers"><img alt="GitHub" src="https://img.shields.io/github/stars/wherewhere/RedStone-Assistive.svg?label=Stars&style=flat-square"></a>
 
 <a href="https://github.com/wherewhere/RedStone-Assistive/releases/latest"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/wherewhere/RedStone-Assistive/total.svg?label=DOWNLOAD&logo=github&style=for-the-badge"></a>
-<a href="https://pan.baidu.com/s/12dZHtQmn216qPxEILeZZ6Q"><img alt="Baidu Netdisk" src="https://img.shields.io/badge/download-%e5%af%86%e7%a0%81%ef%bc%9abbhx-magenta.svg?label=%e4%b8%8b%e8%bd%bd&logo=baidu&style=for-the-badge"></a>
+<a href=""><img alt="Baidu Netdisk" src="https://img.shields.io/badge/download-%e5%af%86%e7%a0%81%ef%bc%9abbhx-magenta.svg?label=%e4%b8%8b%e8%bd%bd&logo=baidu&style=for-the-badge"></a>
 
 ## 目录
  - [目录](#目录)
@@ -40,6 +40,7 @@
 ### 正常安装材质包
 - 下载最新的[材质包`(BareBones-RedStone-Addon-x.x.x.mcpack)`](https://github.com/wherewhere/RedStone-Assistive/releases/latest)
 - 右击选择打开方式，选择Minecraft
+
   ![打开方式](./Images/Guides/Snipaste_2021-03-19_18-12-49.png)
 - 坐和放宽，等待导入完成
 
@@ -47,6 +48,7 @@
 - 下载并解压最新的[材质包`(BareBones-RedStone-Addon-x.x.x.mcpack)`](https://github.com/wherewhere/RedStone-Assistive/releases/latest)
 - 更改后缀名`.mcpack`为`.zip`
 - 解压材质包
+
   ![解压](./Images/Guides/Snipaste_2021-03-19_18-21-03.png)
 - 复制解压出的文件夹至Minecraft资源包目录
   - Windows目录
