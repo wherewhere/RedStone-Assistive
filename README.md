@@ -1,4 +1,4 @@
-<img alt="Coolapk LOGO" src="https://www.minebbs.com/data/resource_icons/2/2116.jpg?1612443424" width="200px" />
+<img alt="Coolapk LOGO" src="./pack_icon.png" width="200px" />
 
 # BareBones红石显示
 一个适用于 [BareBones材质包](https://mcpedl.com/bare-bones-be/) 的红石显示材质
