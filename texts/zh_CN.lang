@@ -1,3 +1,6 @@
+pack.description=§l基于Bare Bones 1.1.1 参考XeKr红显\n§l§6作者wherewhere可以在B站和酷安找到
+pack.name=§lBare Bones 红石显示 0.0.3 MC 1.16
+
 ##教育版内容，提取自1.16.200安装包
 action.interact.balloon=连接
 action.interact.unballoon=分离
@@ -127,8 +130,6 @@ labtable.combine=合成
 labtable.inuse=此实验台正在使用
 labtable.title=实验台
 materialreducer.title=材料分解器
-pack.name=化学
-pack.description=在《我的世界》中探索化学的世界！
 tile.chemical_heat.name=加热块
 tile.colored_torch.blue.name=蓝色火炬
 tile.colored_torch.green.name=绿色火炬
