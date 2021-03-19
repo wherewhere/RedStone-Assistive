@@ -1,5 +1,5 @@
 {
-    "resource_pack_name": "Untitled",
+    "resource_pack_name": "BareBones红石显示",
     "texture_name": "atlas.terrain",
     "padding": 8,
     "num_mip_levels": 4,
@@ -84,35 +84,86 @@
                 "textures/blocks/blast_furnace_top"
             ]
         },
-        "blast_furnace_front": {
-            "textures": [
-                "textures/blocks/blast_furnace_front_off",
-                "textures/blocks/blast_furnace_front_on"
-            ]
-        },
         "blast_furnace_front_off": {
             "textures": "textures/blocks/blast_furnace_front_off"
         },
         "blast_furnace_front_on": {
             "textures": "textures/blocks/blast_furnace_front_on"
         },
-        "blast_furnace_side": {
+        "blast_furnace_side_off": {
+            "textures": "textures/blocks/blast_furnace_side"
+        },
+        "blast_furnace_side_on": {
+            "textures": "textures/blocks/blast_furnace_side_on"
+        },
+        "blast_furnace_back_off": {
+            "textures": "textures/blocks/blast_furnace_back"
+        },
+        "blast_furnace_back_on": {
+            "textures": "textures/blocks/blast_furnace_back_on"
+        },
+        "blast_furnace_top_off": {
+            "textures": "textures/blocks/blast_furnace_top"
+        },
+        "blast_furnace_top_on": {
+            "textures": "textures/blocks/blast_furnace_top_on"
+        },
+        "cauldron_bottom": {
+            "textures": "textures/blocks/cauldron_bottom"
+        },
+        "cauldron_inner": {
+            "textures": "textures/blocks/cauldron_inner"
+        },
+        "cauldron_side": {
+            "textures": "textures/blocks/cauldron_side"
+        },
+        "cauldron_top": {
+            "textures": "textures/blocks/cauldron_top"
+        },
+        "cauldron_water": {
+            "textures": "textures/blocks/cauldron_water"
+        },
+        "cauldron_inner_lava": {
+            "textures": "textures/blocks/cauldron_inner_lava"
+        },
+        "cauldron_side_lava": {
+            "textures": "textures/blocks/cauldron_side_lava"
+        },
+        "comparator_stone_slab": {
             "textures": [
-                "textures/blocks/blast_furnace_side",
-                "textures/blocks/blast_furnace_side_on"
+                "textures/blocks/comparator_bottom_off",
+                "textures/blocks/comparator_bottom_on"
             ]
         },
-        "blast_furnace_back": {
+        "comparator_torch": {
             "textures": [
-                "textures/blocks/blast_furnace_back",
-                "textures/blocks/blast_furnace_back_on"
+                "textures/blocks/redstone_torch_off",
+                "textures/blocks/redstone_torch_on"
             ]
         },
-        "blast_furnace_top": {
+        "comparator_up": {
             "textures": [
-                "textures/blocks/blast_furnace_top",
-                "textures/blocks/blast_furnace_top_on"
+                "textures/blocks/comparator_off",
+                "textures/blocks/comparator_on"
             ]
+        },
+        "chest_inventory_front": {
+            "textures": "textures/blocks/chest_front"
+        },
+        "chest_inventory_side": {
+            "textures": "textures/blocks/chest_side"
+        },
+        "chest_inventory_side1": {
+            "textures": "textures/blocks/chest_side1"
+        },
+        "chest_inventory_back": {
+            "textures": "textures/blocks/chest_back"
+        },
+        "chest_inventory_top": {
+            "textures": "textures/blocks/chest_top"
+        },
+        "chest_inventory_bottom": {
+            "textures": "textures/blocks/chest_bottom"
         },
         "daylight_detector_side": {
             "textures": [
@@ -150,6 +201,18 @@
         "dropper_top": {
             "textures": "textures/blocks/dropper_bottom"
         },
+        "endframe_bottom": {
+            "textures": "textures/blocks/end_stone"
+        },
+        "endframe_eye": {
+            "textures": "textures/blocks/endframe_eye"
+        },
+        "endframe_side": {
+            "textures": "textures/blocks/endframe_side"
+        },
+        "endframe_top": {
+            "textures": "textures/blocks/endframe_top"
+        },
         "furnace": {
             "textures": [
                 "textures/blocks/furnace_front_off",
@@ -158,11 +221,17 @@
                 "textures/blocks/furnace_top"
             ]
         },
-        "furnace_front": {
-            "textures": [
-                "textures/blocks/furnace_front_off",
-                "textures/blocks/furnace_front_on"
-            ]
+        "flowing_lava": {
+            "quad": 1,
+            "textures": "textures/blocks/lava_flow"
+        },
+        "flowing_water": {
+            "quad": 1,
+            "textures": "textures/blocks/water_flow"
+        },
+        "flowing_water_grey": {
+            "quad": 1,
+            "textures": "textures/blocks/water_flow_grey"
         },
         "furnace_front_off": {
             "textures": "textures/blocks/furnace_front_off"
@@ -170,23 +239,23 @@
         "furnace_front_on": {
             "textures": "textures/blocks/furnace_front_on"
         },
-        "furnace_side": {
-            "textures": [
-                "textures/blocks/furnace_side",
-                "textures/blocks/furnace_side_on"
-            ]
+        "furnace_side_off": {
+            "textures": "textures/blocks/furnace_side"
         },
-        "furnace_back": {
-            "textures": [
-                "textures/blocks/furnace_back",
-                "textures/blocks/furnace_side_on"
-            ]
+        "furnace_side_on": {
+            "textures": "textures/blocks/furnace_side_on"
         },
-        "furnace_top": {
-            "textures": [
-                "textures/blocks/furnace_top",
-                "textures/blocks/furnace_top_on"
-            ]
+        "furnace_back_off": {
+            "textures": "textures/blocks/furnace_back"
+        },
+        "furnace_back_on": {
+            "textures": "textures/blocks/furnace_side_on"
+        },
+        "furnace_top_off": {
+            "textures": "textures/blocks/furnace_top"
+        },
+        "furnace_top_on": {
+            "textures": "textures/blocks/furnace_top_on"
         },
         "hopper_inside": {
             "textures": [
@@ -308,6 +377,12 @@
                 "textures/blocks/hopper_top6"
             ]
         },
+        "melon_stem": {
+            "textures": [
+                "textures/blocks/melon_stem_disconnected",
+                "textures/blocks/melon_stem_connected"
+            ]
+        },
         "monster_egg": {
             "textures": [
                 "textures/blocks/infested_cobblestone",
@@ -387,6 +462,12 @@
         "pumpkin_bottom": {
             "textures": "textures/blocks/pumpkin_bottom"
         },
+        "pumpkin_stem": {
+            "textures": [
+                "textures/blocks/pumpkin_stem_disconnected",
+                "textures/blocks/pumpkin_stem_connected"
+            ]
+        },
         "carved_pumpkin_back": {
             "textures": "textures/blocks/pumpkin_back_off"
         },
@@ -410,6 +491,18 @@
         },
         "jack_o_lantern_top": {
             "textures": "textures/blocks/pumpkin_top_on"
+        },
+        "repeater_floor": {
+            "textures": [
+                "textures/blocks/repeater_floor_off",
+                "textures/blocks/repeater_floor_on"
+            ]
+        },
+        "repeater_torch": {
+            "textures": [
+                "textures/blocks/redstone_torch_off",
+                "textures/blocks/redstone_torch_on"
+            ]
         },
         "repeater_up": {
             "textures": [
@@ -452,11 +545,11 @@
                 "textures/blocks/smoker_top"
             ]
         },
-        "smoker_bottom": {
-            "textures": [
-                "textures/blocks/smoker_bottom",
-                "textures/blocks/smoker_bottom_on"
-            ]
+        "smoker_bottom_off": {
+            "textures": "textures/blocks/smoker_bottom"
+        },
+        "smoker_bottom_on": {
+            "textures": "textures/blocks/smoker_bottom_on"
         },
         "smoker_front_off": {
             "textures": "textures/blocks/smoker_front_off"
@@ -464,44 +557,87 @@
         "smoker_front_on": {
             "textures": "textures/blocks/smoker_front_on"
         },
-        "smoker_side": {
-            "textures": [
-                "textures/blocks/smoker_side",
-                "textures/blocks/smoker_side_on"
-            ]
+        "smoker_side_off": {
+            "textures": "textures/blocks/smoker_side"
         },
-        "smoker_top": {
-            "textures": [
-                "textures/blocks/smoker_top",
-                "textures/blocks/smoker_top_on"
-            ]
+        "smoker_side_on": {
+            "textures": "textures/blocks/smoker_side_on"
+        },
+        "smoker_top_off": {
+            "textures": "textures/blocks/smoker_top"
+        },
+        "smoker_top_on": {
+            "textures": "textures/blocks/smoker_top_on"
         },
         "snow_layer": {
             "textures": "textures/blocks/snow_layer"
         },
         "trapped_chest_inventory_front": {
-            "textures": ["textures/blocks/trapped_chest_front"]
+            "textures": "textures/blocks/trapped_chest_front"
         },
         "trapped_chest_inventory_side": {
-            "textures": ["textures/blocks/trapped_chest_side"]
+            "textures": "textures/blocks/trapped_chest_side"
         },
         "trapped_chest_inventory_side1": {
-            "textures": ["textures/blocks/trapped_chest_side1"]
+            "textures": "textures/blocks/trapped_chest_side1"
         },
         "trapped_chest_inventory_back": {
-            "textures": ["textures/blocks/trapped_chest_back"]
+            "textures": "textures/blocks/trapped_chest_back"
         },
         "trapped_chest_inventory_top": {
-            "textures": ["textures/blocks/trapped_chest_top"]
+            "textures": "textures/blocks/trapped_chest_top"
         },
         "trapped_chest_inventory_bottom": {
-            "textures": ["textures/blocks/trapped_chest_bottom"]
+            "textures": "textures/blocks/trapped_chest_bottom"
         },
         "lever": {
             "textures": "textures/blocks/lever"
         },
         "lever_particle": {
             "textures": "textures/blocks/lever_particle"
+        },
+
+        "chemical_heat": {
+            "textures": "textures/blocks/chemical_heat"
+        },
+        "glow_stick": {
+            "textures": [
+                "textures/blocks/glow_stick_gray",
+                "textures/blocks/glow_stick_red",
+                "textures/blocks/glow_stick_green",
+                "textures/blocks/glow_stick_brown",
+                "textures/blocks/glow_stick_blue",
+                "textures/blocks/glow_stick_purple",
+                "textures/blocks/glow_stick_cyan",
+                "textures/blocks/glow_stick_white",
+                "textures/blocks/glow_stick_gray",
+                "textures/blocks/glow_stick_pink",
+                "textures/blocks/glow_stick_lime",
+                "textures/blocks/glow_stick_yellow",
+                "textures/blocks/glow_stick_light_blue",
+                "textures/blocks/glow_stick_magenta",
+                "textures/blocks/glow_stick_orange",
+                "textures/blocks/glow_stick_white"
+            ]
+        },
+        "hard_glass": {
+            "textures": "textures/blocks/hard_glass"
+        },
+        "underwater_torch": {
+            "textures": "textures/blocks/torch_underwater"
+        },
+
+        "green_screen": {
+            "textures": "textures/blocks/green_screen"
+        },
+        "blue_screen": {
+            "textures": "textures/blocks/blue_screen"
+        },
+        "reserved6": {
+            "textures": "textures/blocks/reserved6"
+        },
+        "logo": {
+            "textures": "pack_icon"
         }
     }
 }
