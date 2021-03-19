@@ -1,0 +1,3 @@
+*.json linguist-language=JavaScript
+*.yml linguist-language=YML
+*.md linguist-language=MarkDown
