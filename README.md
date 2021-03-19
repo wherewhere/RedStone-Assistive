@@ -20,7 +20,6 @@
    - [最低需求](#最低需求)
    - [正常安装材质包](#正常安装材质包)
    - [解压安装材质包](#解压安装材质包)
- - [屏幕截图](#屏幕截图)
 
 ## 声明
 1. 本插件是 [BareBones](https://mcpedl.com/bare-bones-be/)红石显示扩展，仅用作学习交流使用，禁止用于商业用途。
@@ -64,15 +63,3 @@
   - iOS 目录(作者没有 iOS 设备。。。)
      - `/Document/games/com.mojang/resource_packs` 
 - 再次打开Minecraft，便可以在材质设置中找到
-
-## 屏幕截图
-
-![打开方式](https://www.minebbs.com/attachments/screenshot_20210204-201635_5c8300b655012b1930f2e0a7b81bf6a9-jpg.12850/)
-
-![打开方式](https://www.minebbs.com/attachments/screenshot_20210204-201715_5c8300b655012b1930f2e0a7b81bf6a9-jpg.12852/)
-
-![打开方式](https://www.minebbs.com/attachments/screenshot_20210204-201739_5c8300b655012b1930f2e0a7b81bf6a9-jpg.12853/)
-
-![打开方式](https://www.minebbs.com/attachments/screenshot_20210204-201706_5c8300b655012b1930f2e0a7b81bf6a9-jpg.12857/)
-
-![打开方式](https://www.minebbs.com/attachments/screenshot_20210204-201820_5c8300b655012b1930f2e0a7b81bf6a9-jpg.12858/)
