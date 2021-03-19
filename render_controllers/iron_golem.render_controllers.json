@@ -1,0 +1,17 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.iron_golem": {
+            "arrays": {
+                "textures": {
+                    "array.lonel": ["texture.high", "texture.medium", "texture.low", "texture.original"]
+                }
+            },
+            "geometry": "geometry.default",
+            "materials": [{
+                "*": "material.default"
+            }],
+            "textures": ["array.lonel[variable.lonel]"]
+        }
+    }
+}
