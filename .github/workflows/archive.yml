@@ -11,10 +11,10 @@ jobs:
     - name: Archive Release
       uses: TheDoctor0/zip-release@0.4.1
       with:
-        filename: 'BareBones-RedStone-Addon.mcpack'
+        filename: 'BareBones红石显示.mcpack'
         exclusions: '*.git* /*node_modules/* .editorconfig Images/ LICENSE *.md '
         type: 'zip'
     - uses: actions/upload-artifact@v2
       with:
-        name: Archive Release
-        path: ./BareBones-RedStone-Addon.mcpack
+        name: Archive Prerelease
+        path: ./BareBones红石显示.mcpack
