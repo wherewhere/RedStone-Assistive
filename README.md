@@ -21,7 +21,6 @@
    - [正常安装材质包](#正常安装材质包)
    - [解压安装材质包](#解压安装材质包)
  - [屏幕截图](#屏幕截图)
- - [鸣谢](#鸣谢)
 
 ## 声明
 1. 本插件是 [BareBones](https://mcpedl.com/bare-bones-be/)红石显示扩展，仅用作学习交流使用，禁止用于商业用途。
@@ -40,14 +39,15 @@
 
 ### 正常安装材质包
 - 下载最新的[材质包`(UWP_x.x.x.0_Debug_Test.mcpack)`](https://github.com/wherewhere/RedStone-Assistive/releases/latest)
-- 右击选择打开方式
-- 选择Minecraft
-- 坐和放宽
+- 右击选择打开方式，选择Minecraft
+  ![打开方式](./Images/Guides/Snipaste_2021-03-19_18-12-49.png)
+- 坐和放宽，等待导入完成
 
 ### 解压安装材质包
 - 下载并解压最新的[材质包`(UWP_x.x.x.0_x86_x64_arm_Debug.mcpack)`](https://github.com/wherewhere/RedStone-Assistive/releases/latest)
 - 更改后缀名`.mcpack`为`.zip`
 - 解压材质包
+  ![解压](./Images/Guides/Snipaste_2021-03-19_18-21-03.png)
 - 复制解压出的文件夹至Minecraft资源包目录
   - Windows目录
      - 教育版：``C:\Users\<你的用户名>\AppData\Local\Packages\Microsoft.MinecraftEducationEdition_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs``
@@ -59,6 +59,16 @@
      - 内部(需要Root权限)：`/data/data/com.mojang.minecraftpe/games/com.mojang/resource_packs/`
   - iOS 目录(作者没有 iOS 设备。。。)
      - `/Document/games/com.mojang/resource_packs` 
+- 再次打开Minecraft，便可以在材质设置中找到
 
 ## 屏幕截图
 
+![打开方式](https://www.minebbs.com/attachments/screenshot_20210204-201635_5c8300b655012b1930f2e0a7b81bf6a9-jpg.12850/)
+
+![打开方式](https://www.minebbs.com/attachments/screenshot_20210204-201715_5c8300b655012b1930f2e0a7b81bf6a9-jpg.12852/)
+
+![打开方式](https://www.minebbs.com/attachments/screenshot_20210204-201739_5c8300b655012b1930f2e0a7b81bf6a9-jpg.12853/)
+
+![打开方式](https://www.minebbs.com/attachments/screenshot_20210204-201706_5c8300b655012b1930f2e0a7b81bf6a9-jpg.12857/)
+
+![打开方式](https://www.minebbs.com/attachments/screenshot_20210204-201820_5c8300b655012b1930f2e0a7b81bf6a9-jpg.12858/)
