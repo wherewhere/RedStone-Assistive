@@ -11,3 +11,7 @@ jobs:
         filename: 'release.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
         type: 'zip'
+    - uses: actions/upload-artifact@v2
+      with:
+        name: my-artifact
+        path: ./release.zip
