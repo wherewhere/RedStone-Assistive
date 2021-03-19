@@ -6,7 +6,8 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Archive Release
-      uses: thedoctor0/zip-release@master
+      uses: TheDoctor0/zip-release@0.4.1
       with:
         filename: 'release.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
+        type: 'zip'
