@@ -2,15 +2,15 @@
    "format_version": 2,
    "header": {
       "description": "§l基于Bare Bones 1.1.1 参考XeKr红显\n§l§6作者wherewhere可以在B站和酷安找到",
-      "name": "§lBare Bones 红石显示 0.0.3 pre1 MC 1.16",
+      "name": "§lBare Bones 红石显示 1.0.0 MC 1.16",
       "uuid": "8f47daf3-7d33-4fe7-aeaf-789ea8765a80",
-      "version": [1, 0, 3],
+      "version": [1, 0, 0],
       "min_engine_version": [1, 16, 0]
    },
    "modules": [{
       "description": "§l基于Bare Bones 1.1.1 参考XeKr红显\n§l§6作者wherewhere可以在B站和酷安找到",
       "type": "resources",
       "uuid": "381a4892-636d-4757-8190-d4cad7f022f1",
-      "version": [1, 0, 3]
+      "version": [1, 0, 0]
    }]
 }

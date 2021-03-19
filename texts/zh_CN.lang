@@ -1,6 +1,3 @@
-pack.description=§l基于Bare Bones 1.1.1 参考XeKr红显\n§l§6作者wherewhere可以在B站和酷安找到
-pack.name=§lBare Bones 红石显示 0.0.3 MC 1.16
-
 ##教育版内容，提取自1.16.200安装包
 action.interact.balloon=连接
 action.interact.unballoon=分离
@@ -502,7 +499,7 @@ tile.double_stone_slab3.end_brick.name=末地石砖双台阶
 tile.bamboo_sapling.oak.name=竹笋
 tile.bubble_column.name=气泡柱
 tile.kelp.name=海带
-tile.lava.name=静态岩浆
+tile.lava.name=静态熔岩
 tile.pistonArmCollision.name=活塞底座
 tile.lit_furnace.name=点亮的熔炉
 tile.wooden_door.name=橡木门
