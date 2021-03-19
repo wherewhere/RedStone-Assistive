@@ -23,7 +23,7 @@
             },
             "scripts": {
                 "pre_animation": [
-                    "variable.lonel=(math.floor((query.health/query.max_health)*(3)));",
+                    "variable.health=(math.floor((query.health/query.max_health) * (3)));",
                     "variable.modified_tcos0 = math.clamp(((math.cos(query.modified_distance_moved * 14) * math.min(query.modified_move_speed, 0.7) / variable.gliding_speed_value) * 26), -13, 13);"
                 ]
             },

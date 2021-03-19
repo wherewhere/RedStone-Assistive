@@ -4,14 +4,20 @@
         "controller.render.iron_golem": {
             "arrays": {
                 "textures": {
-                    "array.lonel": ["texture.high", "texture.medium", "texture.low", "texture.original"]
+                    "array.health": [
+                        "texture.high",
+                        "texture.medium",
+                        "texture.low",
+                        "texture.original",
+                        "texture.original"
+                    ]
                 }
             },
             "geometry": "geometry.default",
             "materials": [{
                 "*": "material.default"
             }],
-            "textures": ["array.lonel[variable.lonel]"]
+            "textures": ["array.health[variable.health]"]
         }
     }
 }
