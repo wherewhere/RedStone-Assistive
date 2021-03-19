@@ -42,6 +42,7 @@
 - 右击选择打开方式，选择Minecraft
 
   ![打开方式](./Images/Guides/Snipaste_2021-03-19_18-12-49.png)
+  
 - 坐和放宽，等待导入完成
 
 ### 解压安装材质包
@@ -50,6 +51,7 @@
 - 解压材质包
 
   ![解压](./Images/Guides/Snipaste_2021-03-19_18-21-03.png)
+  
 - 复制解压出的文件夹至Minecraft资源包目录
   - Windows目录
      - 教育版：``C:\Users\<你的用户名>\AppData\Local\Packages\Microsoft.MinecraftEducationEdition_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs``
