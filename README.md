@@ -38,13 +38,13 @@
 - 建议安装 [BareBones材质包](https://mcpedl.com/bare-bones-be/)
 
 ### 正常安装材质包
-- 下载最新的[材质包`(UWP_x.x.x.0_Debug_Test.mcpack)`](https://github.com/wherewhere/RedStone-Assistive/releases/latest)
+- 下载最新的[材质包`(BareBones-RedStone-Addon-x.x.x.mcpack)`](https://github.com/wherewhere/RedStone-Assistive/releases/latest)
 - 右击选择打开方式，选择Minecraft
   ![打开方式](./Images/Guides/Snipaste_2021-03-19_18-12-49.png)
 - 坐和放宽，等待导入完成
 
 ### 解压安装材质包
-- 下载并解压最新的[材质包`(UWP_x.x.x.0_x86_x64_arm_Debug.mcpack)`](https://github.com/wherewhere/RedStone-Assistive/releases/latest)
+- 下载并解压最新的[材质包`(BareBones-RedStone-Addon-x.x.x.mcpack)`](https://github.com/wherewhere/RedStone-Assistive/releases/latest)
 - 更改后缀名`.mcpack`为`.zip`
 - 解压材质包
   ![解压](./Images/Guides/Snipaste_2021-03-19_18-21-03.png)
