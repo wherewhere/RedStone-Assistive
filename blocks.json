@@ -60,6 +60,16 @@
       "west": "cauldron_water"
     }
   },
+  "ender_chest": {
+    "textures": {
+      "down": "ender_chest_inventory_bottom",
+      "east": "ender_chest_inventory_side",
+      "north": "ender_chest_inventory_back",
+      "south": "ender_chest_inventory_front",
+      "up": "ender_chest_inventory_top",
+      "west": "ender_chest_inventory_side1"
+    }
+  },
   "chest": {
     "sound": "wood",
     "textures": {
@@ -257,6 +267,18 @@
   "melon_stem": {
     "sound": "wood",
     "textures": "melon_stem"
+  },
+  "infested_deepslate":{
+    "isotropic":{
+      "up":true,
+      "down": true
+    },
+    "textures":{
+      "up": "infested_deepslate_top",
+      "down": "infested_deepslate_top",
+      "side": "infested_deepslate"
+    },
+    "sound": "deepslate"
   },
 
   "chemical_heat": {

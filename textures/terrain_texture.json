@@ -147,6 +147,24 @@
                 "textures/blocks/comparator_on"
             ]
         },
+        "ender_chest_inventory_front": {
+            "textures": "textures/blocks/ender_chest_front"
+        },
+        "ender_chest_inventory_side": {
+            "textures": "textures/blocks/ender_chest_side"
+        },
+        "ender_chest_inventory_side1": {
+            "textures": "textures/blocks/ender_chest_side1"
+        },
+        "ender_chest_inventory_back": {
+            "textures": "textures/blocks/ender_chest_back"
+        },
+        "ender_chest_inventory_top": {
+            "textures": "textures/blocks/ender_chest_top"
+        },
+        "ender_chest_inventory_bottom": {
+            "textures": "textures/blocks/ender_chest_bottom"
+        },
         "chest_inventory_front": {
             "textures": "textures/blocks/chest_front"
         },
@@ -595,6 +613,12 @@
         },
         "lever_particle": {
             "textures": "textures/blocks/lever_particle"
+        },
+        "infested_deepslate": {
+            "textures": "textures/blocks/infested_deepslate"
+        },
+        "infested_deepslate_top": {
+            "textures": "textures/blocks/infested_deepslate_top"
         },
 
         "chemical_heat": {
