@@ -482,6 +482,17 @@ ori.exit.controls.keyboard=退出：[Enter]
 ori.cancelling=正在取消...
 
 ##未翻译内容，由wherewhere翻译
+tile.client_request_placeholder_block.name=
+tile.waxed_oxidized_double_cut_copper_slab.name=氧化的涂蜡切制铜双台阶
+tile.lit_deepslate_redstone_ore.name=点亮的深层红石矿石
+tile.waxed_weathered_double_cut_copper_slab.name=锈蚀的涂蜡切制铜双台阶
+tile.waxed_exposed_double_cut_copper_slab.name=斑驳的涂蜡切制铜双台阶
+tile.waxed_double_cut_copper_slab.name=涂蜡切制铜双台阶
+tile.oxidized_double_cut_copper_slab.name=氧化的切制铜双台阶
+tile.weathered_double_cut_copper_slab.name=锈蚀的切制铜双台阶
+tile.exposed_double_cut_copper_slab.name=斑驳的切制铜双台阶
+tile.double_cut_copper_slab.name=切制铜双台阶
+tile.glow_frame.name=发光物品展示框
 tile.polished_blackstone_double_slab.name=磨制黑石双台阶
 tile.polished_blackstone_brick_double_slab.name=磨制黑石砖双台阶
 tile.blackstone_double_slab.name=黑石双台阶
