@@ -8,14 +8,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Archive Release
-      uses: TheDoctor0/zip-release@0.4.1
+    - name: Checkout
+      uses: actions/checkout@v3
+      
+    - name: Archive Package
+      uses: TheDoctor0/zip-release@0.7.1
       with:
         filename: 'BareBones红石显示.mcpack'
         exclusions: '*.git* /*node_modules/* .editorconfig /Images/* LICENSE *.md'
         type: 'zip'
-    - uses: actions/upload-artifact@v2
+        
+    - uses: actions/upload-artifact@v3
       with:
-        name: Archive Prerelease
+        name: BareBones红石显示
         path: ./BareBones红石显示.mcpack
