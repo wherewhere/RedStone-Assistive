@@ -1,31 +1,11 @@
 {
   "format_version": [1, 1, 0],
   "anvil": {
+    "sound": "anvil",
     "textures": {
-      "up": "anvil_top_damaged_x",
       "down": "anvil_base",
-      "side": "anvil_side"
-    },
-    "sound": "anvil"
-  },
-  "bee_nest": {
-    "textures": {
-      "up": "bee_nest_top",
-      "down": "bee_nest_bottom",
-      "north": "bee_nest_side",
-      "south": "bee_nest_front",
-      "west": "bee_nest_side",
-      "east": "bee_nest_side"
-    }
-  },
-  "beehive": {
-    "textures": {
-      "up": "beehive_top",
-      "down": "beehive_bottom",
-      "north": "beehive_side",
-      "south": "beehive_front",
-      "west": "beehive_side",
-      "east": "beehive_side"
+      "side": "anvil_side",
+      "up": "anvil_top_damaged_x"
     }
   },
   "blast_furnace": {
@@ -40,34 +20,14 @@
     }
   },
   "carved_pumpkin": {
+    "sound": "wood",
     "textures": {
-      "up": "carved_pumpkin_top",
       "down": "carved_pumpkin_bottom",
+      "east": "carved_pumpkin_side",
       "north": "carved_pumpkin_back",
       "south": "pumpkin_face",
-      "west": "carved_pumpkin_side",
-      "east": "carved_pumpkin_side"
-    },
-    "sound": "wood"
-  },
-  "cauldron": {
-    "textures": {
-      "down": "cauldron_bottom",
-      "east": "still_water_grey",
-      "north": "cauldron_side",
-      "south": "cauldron_inner",
-      "up": "cauldron_top",
-      "west": "cauldron_water"
-    }
-  },
-  "ender_chest": {
-    "textures": {
-      "down": "ender_chest_inventory_bottom",
-      "east": "ender_chest_inventory_side",
-      "north": "ender_chest_inventory_back",
-      "south": "ender_chest_inventory_front",
-      "up": "ender_chest_inventory_top",
-      "west": "ender_chest_inventory_side1"
+      "up": "carved_pumpkin_top",
+      "west": "carved_pumpkin_side"
     }
   },
   "chest": {
@@ -79,6 +39,16 @@
       "south": "chest_inventory_front",
       "up": "chest_inventory_top",
       "west": "chest_inventory_side1"
+    }
+  },
+  "ender_chest": {
+    "textures": {
+      "down": "ender_chest_inventory_bottom",
+      "east": "ender_chest_inventory_side",
+      "north": "ender_chest_inventory_back",
+      "south": "ender_chest_inventory_front",
+      "up": "ender_chest_inventory_top",
+      "west": "ender_chest_inventory_side1"
     }
   },
   "furnace": {
@@ -93,26 +63,27 @@
     }
   },
   "hopper": {
+    "sound": "metal",
     "textures": {
-      "up": "hopper_top",
       "down": "hopper_inside",
+      "east": "hopper_outside4",
       "north": "hopper_outside1",
       "south": "hopper_outside2",
-      "west": "hopper_outside3",
-      "east": "hopper_outside4"
-    },
-    "sound": "metal"
+      "up": "hopper_top",
+      "west": "hopper_outside3"
+    }
   },
-  "lit_pumpkin": {
-    "textures": {
-      "up": "jack_o_lantern_top",
-      "down": "jack_o_lantern_bottom",
-      "north": "jack_o_lantern_back",
-      "south": "pumpkin_face",
-      "west": "jack_o_lantern_side",
-      "east": "jack_o_lantern_side"
+  "infested_deepslate": {
+    "isotropic": {
+      "down": true,
+      "up": true
     },
-    "sound": "wood"
+    "sound": "deepslate",
+    "textures": {
+      "down": "infested_deepslate_top",
+      "side": "infested_deepslate",
+      "up": "infested_deepslate_top"
+    }
   },
   "lava_cauldron": {
     "textures": {
@@ -122,6 +93,39 @@
       "south": "cauldron_inner_lava",
       "up": "cauldron_top",
       "west": "cauldron_water"
+    }
+  },
+  "lit_blast_furnace": {
+    "sound": "stone",
+    "textures": {
+      "down": "blast_furnace_top_on",
+      "east": "blast_furnace_front_on",
+      "north": "blast_furnace_side_on",
+      "south": "blast_furnace_side_on",
+      "up": "blast_furnace_top_on",
+      "west": "blast_furnace_back_on"
+    }
+  },
+  "lit_furnace": {
+    "sound": "stone",
+    "textures": {
+      "down": "furnace_top_on",
+      "east": "furnace_front_on",
+      "north": "furnace_side_on",
+      "south": "furnace_side_on",
+      "up": "furnace_top_on",
+      "west": "furnace_back_on"
+    }
+  },
+  "lit_pumpkin": {
+    "sound": "wood",
+    "textures": {
+      "down": "jack_o_lantern_bottom",
+      "east": "jack_o_lantern_side",
+      "north": "jack_o_lantern_back",
+      "south": "pumpkin_face",
+      "up": "jack_o_lantern_top",
+      "west": "jack_o_lantern_side"
     }
   },
   "lit_smoker": {
@@ -148,12 +152,30 @@
       "up": "piston_inner_normal"
     }
   },
-  "pumpkin_stem": {
-    "sound": "wood",
-    "textures": "pumpkin_stem"
-  },
   "pistonArmCollision": {
     "textures": "piston_inner_normal"
+  },
+  "pumpkin": {
+    "sound": "wood",
+    "textures": {
+      "down": "pumpkin_bottom",
+      "east": "pumpkin_side",
+      "north": "pumpkin_side",
+      "south": "pumpkin_side",
+      "up": "pumpkin_top",
+      "west": "pumpkin_side"
+    }
+  },
+  "smoker": {
+    "sound": "stone",
+    "textures": {
+      "down": "smoker_bottom_off",
+      "east": "smoker_side_off",
+      "north": "smoker_side_off",
+      "south": "smoker_front_off",
+      "up": "smoker_top_off",
+      "west": "smoker_side_off"
+    }
   },
   "stickyPistonArmCollision": {
     "textures": "piston_inner_sticky"
@@ -171,47 +193,6 @@
       "up": "piston_inner_sticky"
     }
   },
-  "smoker": {
-    "sound": "stone",
-    "textures": {
-      "down": "smoker_bottom_off",
-      "east": "smoker_side_off",
-      "north": "smoker_side_off",
-      "south": "smoker_front_off",
-      "up": "smoker_top_off",
-      "west": "smoker_side_off"
-    }
-  },
-  "powered_repeater": {
-    "sound": "wood",
-    "textures": {
-      "down": "repeater_floor",
-      "side": "repeater_floor",
-      "up": "repeater_up"
-    }
-  },
-  "pumpkin": {
-    "textures": {
-      "up": "pumpkin_top",
-      "down": "pumpkin_bottom",
-      "north": "pumpkin_side",
-      "south": "pumpkin_side",
-      "west": "pumpkin_side",
-      "east": "pumpkin_side"
-    },
-    "sound": "wood"
-  },
-  "respawn_anchor": {
-    "sound": "metal",
-    "textures": {
-      "down": "respawn_anchor_bottom",
-      "east": "respawn_anchor_side",
-      "north": "respawn_anchor_side",
-      "south": "respawn_anchor_side",
-      "up": "respawn_anchor_top",
-      "west": "respawn_anchor_side"
-    }
-  },
   "trapped_chest": {
     "sound": "wood",
     "textures": {
@@ -223,100 +204,43 @@
       "west": "trapped_chest_inventory_side1"
     }
   },
-  "unpowered_repeater": {
-    "sound": "wood",
-    "textures": {
-      "down": "repeater_floor",
-      "side": "repeater_floor",
-      "up": "repeater_up"
-    }
-  },
-  "lever": {
-    "sound": "wood",
-    "textures": {
-      "down": "lever",
-      "east": "lever_particle",
-      "north": "lever",
-      "south": "lever",
-      "up": "lever",
-      "west": "lever"
-    }
-  },
-  "lit_blast_furnace": {
-    "sound": "stone",
-    "textures": {
-      "down": "blast_furnace_top_on",
-      "east": "blast_furnace_front_on",
-      "north": "blast_furnace_side_on",
-      "south": "blast_furnace_side_on",
-      "up": "blast_furnace_top_on",
-      "west": "blast_furnace_back_on"
-    }
-  },
-  "lit_furnace": {
-    "sound": "stone",
-    "textures": {
-      "down": "furnace_top_on",
-      "east": "furnace_front_on",
-      "north": "furnace_side_on",
-      "south": "furnace_side_on",
-      "up": "furnace_top_on",
-      "west": "furnace_back_on"
-    }
-  },
-  "melon_stem": {
-    "sound": "wood",
-    "textures": "melon_stem"
-  },
-  "infested_deepslate":{
-    "isotropic":{
-      "up":true,
-      "down": true
-    },
-    "textures":{
-      "up": "infested_deepslate_top",
-      "down": "infested_deepslate_top",
-      "side": "infested_deepslate"
-    },
-    "sound": "deepslate"
-  },
 
   "chemical_heat": {
-    "textures": "chemical_heat",
-    "sound": "stone"
+    "sound": "stone",
+    "textures": "chemical_heat"
   },
   "hard_glass": {
-    "textures": "hard_glass",
-    "sound": "glass"
+    "sound": "glass",
+    "textures": "hard_glass"
   },
   "hard_glass_pane": {
+    "sound": "glass",
     "textures": {
-      "up": "hard_glass",
       "down": "hard_glass",
+      "east": "glass_pane_top",
       "north": "hard_glass",
       "south": "hard_glass",
-      "west": "hard_glass",
-      "east": "glass_pane_top"
-    },
-    "sound": "glass"
+      "up": "hard_glass",
+      "west": "hard_glass"
+    }
   },
   "underwater_torch": {
-    "textures": "underwater_torch",
-    "sound": "wood"
+    "sound": "wood",
+    "textures": "underwater_torch"
   },
 
   "info_update": {
-    "textures": "green_screen",
-    "sound": "metal"
+    "sound": "metal",
+    "textures": "green_screen"
   },
   "info_update2": {
-    "textures": "blue_screen",
-    "sound": "metal"
-  },
-  "reserved6": {
-    "textures": "reserved6"
+    "sound": "metal",
+    "textures": "blue_screen"
   },
   "movingBlock": {
     "textures": "logo"
+  },
+  "reserved6": {
+    "textures": "reserved6"
   }
 }
