@@ -73,6 +73,18 @@
       "west": "hopper_outside3"
     }
   },
+  "infested_chiseled_stone_bricks" : {
+     "sound" : "stone",
+     "textures" : "infested_chiseled_stone_bricks"
+  },
+  "infested_cobblestone" : {
+     "sound" : "stone",
+     "textures" : "infested_cobblestone"
+  },
+  "infested_cracked_stone_bricks" : {
+     "sound" : "stone",
+     "textures" : "infested_cracked_stone_bricks"
+  },
   "infested_deepslate": {
     "isotropic": {
       "down": true,
@@ -84,6 +96,18 @@
       "side": "infested_deepslate",
       "up": "infested_deepslate_top"
     }
+  },
+  "infested_mossy_stone_bricks" : {
+     "sound" : "stone",
+     "textures" : "infested_mossy_stone_bricks"
+  },
+  "infested_stone" : {
+     "sound" : "stone",
+     "textures" : "infested_stone"
+  },
+  "infested_stone_bricks" : {
+     "sound" : "stone",
+     "textures" : "infested_stone_bricks"
   },
   "lava_cauldron": {
     "textures": {

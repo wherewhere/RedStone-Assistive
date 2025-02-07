@@ -407,11 +407,29 @@
         "textures/blocks/hopper_top9"
       ]
     },
+    "infested_chiseled_stone_bricks": {
+      "textures": "textures/blocks/infested_chiseled_stone_bricks"
+    },
+    "infested_cobblestone": {
+      "textures": "textures/blocks/infested_cobblestone"
+    },
+    "infested_cracked_stone_bricks": {
+      "textures": "textures/blocks/infested_cracked_stone_bricks"
+    },
     "infested_deepslate": {
       "textures": "textures/blocks/infested_deepslate"
     },
     "infested_deepslate_top": {
       "textures": "textures/blocks/infested_deepslate_top"
+    },
+    "infested_mossy_stone_bricks": {
+      "textures": "textures/blocks/infested_mossy_stone_bricks"
+    },
+    "infested_stone": {
+      "textures": "textures/blocks/infested_stone"
+    },
+    "infested_stone_bricks": {
+      "textures": "textures/blocks/infested_stone_bricks"
     },
     "jack_o_lantern_back": {
       "textures": "textures/blocks/pumpkin_back_on"

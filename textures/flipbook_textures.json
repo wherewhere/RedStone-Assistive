@@ -28,11 +28,6 @@
     "ticks_per_frame": 16
   },
   {
-    "atlas_tile": "chemical_heat",
-    "flipbook_texture": "textures/blocks/chemical_heat",
-    "ticks_per_frame": 10
-  },
-  {
     "atlas_index": 0,
     "atlas_tile": "respawn_anchor_top",
     "atlas_tile_variant": 0,
@@ -107,6 +102,11 @@
     "atlas_tile": "smoker_top_on",
     "flipbook_texture": "textures/blocks/smoker_top_on",
     "frames": [0, 1, 2, 3],
+    "ticks_per_frame": 10
+  },
+  {
+    "atlas_tile": "chemical_heat",
+    "flipbook_texture": "textures/blocks/chemical_heat",
     "ticks_per_frame": 10
   }
 ]
