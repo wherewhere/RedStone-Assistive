@@ -458,11 +458,11 @@
     "monster_egg": {
       "textures": [
         "textures/blocks/infested_cobblestone",
-        "textures/blocks/infested_stone",
-        "textures/blocks/infested_stonebrick",
-        "textures/blocks/infested_stonebrick_carved",
-        "textures/blocks/infested_stonebrick_cracked",
-        "textures/blocks/infested_stonebrick_mossy"
+        "textures/blocks/infested_stone_bricks",
+        "textures/blocks/infested_mossy_stone_bricks",
+        "textures/blocks/infested_cracked_stone_bricks",
+        "textures/blocks/infested_chiseled_stone_bricks",
+        "textures/blocks/infested_stone"
       ]
     },
     "observer_bottom": {
@@ -666,6 +666,52 @@
     },
     "underwater_torch": {
       "textures": "textures/blocks/torch_underwater"
+    },
+    "border_block": {
+      "textures": "textures/blocks/border"
+    },
+    "build_allow": {
+      "textures": "textures/blocks/build_allow"
+    },
+    "build_deny": {
+      "textures": "textures/blocks/build_deny"
+    },
+    "camera_top": {
+      "textures": "textures/blocks/camera_top"
+    },
+    "camera_side": {
+      "textures": "textures/blocks/camera_side"
+    },
+    "camera_front": {
+      "textures": "textures/blocks/camera_front"
+    },
+    "camera_back": {
+      "textures": "textures/blocks/camera_back"
+    },
+    "glowing_obsidian": {
+      "textures": "textures/blocks/glowing_obsidian"
+    },
+    "missing_tile": {
+      "textures": "textures/blocks/missing_tile"
+    },
+    "reactor_core": {
+      "textures": [
+        "textures/blocks/reactor_core_stage_0",
+        "textures/blocks/reactor_core_stage_1",
+        "textures/blocks/reactor_core_stage_2"
+      ]
+    },
+    "stonecutter_top": {
+      "textures": "textures/blocks/stonecutter_top"
+    },
+    "stonecutter_bottom": {
+      "textures": "textures/blocks/stonecutter_bottom"
+    },
+    "stonecutter_side": {
+      "textures": "textures/blocks/stonecutter_side"
+    },
+    "stonecutter_other_side": {
+      "textures": "textures/blocks/stonecutter_other_side"
     },
     "blue_screen": {
       "textures": "textures/blocks/blue_screen"
