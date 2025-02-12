@@ -66,11 +66,11 @@
     "sound": "metal",
     "textures": {
       "down": "hopper_inside",
-      "east": "hopper_outside4",
-      "north": "hopper_outside1",
-      "south": "hopper_outside2",
+      "east": "hopper_outside_east",
+      "north": "hopper_outside_north",
+      "south": "hopper_outside_south",
       "up": "hopper_top",
-      "west": "hopper_outside3"
+      "west": "hopper_outside_west"
     }
   },
   "infested_chiseled_stone_bricks" : {
