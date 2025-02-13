@@ -22,12 +22,12 @@
   "carved_pumpkin": {
     "sound": "wood",
     "textures": {
-      "down": "carved_pumpkin_bottom",
-      "east": "carved_pumpkin_side",
-      "north": "carved_pumpkin_back",
+      "down": "pumpkin_bottom",
+      "east": "pumpkin_side",
+      "north": "pumpkin_back",
       "south": "pumpkin_face",
-      "up": "carved_pumpkin_top",
-      "west": "carved_pumpkin_side"
+      "up": "pumpkin_top",
+      "west": "pumpkin_side"
     }
   },
   "chest": {
@@ -144,12 +144,12 @@
   "lit_pumpkin": {
     "sound": "wood",
     "textures": {
-      "down": "jack_o_lantern_bottom",
-      "east": "jack_o_lantern_side",
-      "north": "jack_o_lantern_back",
+      "down": "pumpkin_bottom",
+      "east": "pumpkin_side",
+      "north": "pumpkin_back",
       "south": "pumpkin_face",
-      "up": "jack_o_lantern_top",
-      "west": "jack_o_lantern_side"
+      "up": "pumpkin_top",
+      "west": "pumpkin_side"
     }
   },
   "lit_smoker": {

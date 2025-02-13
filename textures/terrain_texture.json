@@ -7,25 +7,25 @@
     "anvil_base": {
       "textures": [
         "textures/blocks/anvil_base",
-        "textures/blocks/anvil_base",
         "textures/blocks/anvil_front_damaged_1",
-        "textures/blocks/anvil_front_damaged_2"
+        "textures/blocks/anvil_front_damaged_2",
+        "textures/blocks/anvil_base"
       ]
     },
     "anvil_side": {
       "textures": [
         "textures/blocks/anvil_base",
-        "textures/blocks/anvil_base",
         "textures/blocks/anvil_side_damaged_1",
-        "textures/blocks/anvil_side_damaged_2"
+        "textures/blocks/anvil_side_damaged_2",
+        "textures/blocks/anvil_base"
       ]
     },
     "anvil_top_damaged_x": {
       "textures": [
         "textures/blocks/anvil_top_damaged_0",
-        "textures/blocks/anvil_top_damaged_0",
         "textures/blocks/anvil_top_damaged_1",
-        "textures/blocks/anvil_top_damaged_2"
+        "textures/blocks/anvil_top_damaged_2",
+        "textures/blocks/anvil_top_damaged_0"
       ]
     },
     "bee_nest_bottom": {
@@ -76,25 +76,11 @@
         "textures/blocks/beehive_top5"
       ]
     },
-    "blast_furnace": {
-      "textures": [
-        "textures/blocks/blast_furnace_front_off",
-        "textures/blocks/blast_furnace_front_on",
-        "textures/blocks/blast_furnace_side",
-        "textures/blocks/blast_furnace_top"
-      ]
-    },
     "blast_furnace_back_off": {
       "textures": "textures/blocks/blast_furnace_back"
     },
     "blast_furnace_back_on": {
       "textures": "textures/blocks/blast_furnace_back_on"
-    },
-    "blast_furnace_front_off": {
-      "textures": "textures/blocks/blast_furnace_front_off"
-    },
-    "blast_furnace_front_on": {
-      "textures": "textures/blocks/blast_furnace_front_on"
     },
     "blast_furnace_side_off": {
       "textures": "textures/blocks/blast_furnace_side"
@@ -108,38 +94,11 @@
     "blast_furnace_top_on": {
       "textures": "textures/blocks/blast_furnace_top_on"
     },
-    "carved_pumpkin_back": {
-      "textures": "textures/blocks/pumpkin_back_off"
-    },
-    "carved_pumpkin_bottom": {
-      "textures": "textures/blocks/pumpkin_bottom_off"
-    },
-    "carved_pumpkin_side": {
-      "textures": "textures/blocks/pumpkin_side_off"
-    },
-    "carved_pumpkin_top": {
-      "textures": "textures/blocks/pumpkin_top_off"
-    },
-    "cauldron_bottom": {
-      "textures": "textures/blocks/cauldron_bottom"
-    },
-    "cauldron_inner": {
-      "textures": "textures/blocks/cauldron_inner"
-    },
     "cauldron_inner_lava": {
       "textures": "textures/blocks/cauldron_inner_lava"
     },
-    "cauldron_side": {
-      "textures": "textures/blocks/cauldron_side"
-    },
     "cauldron_side_lava": {
       "textures": "textures/blocks/cauldron_side_lava"
-    },
-    "cauldron_top": {
-      "textures": "textures/blocks/cauldron_top"
-    },
-    "cauldron_water": {
-      "textures": "textures/blocks/cauldron_water"
     },
     "chest_inventory_back": {
       "textures": "textures/blocks/chest_back"
@@ -147,17 +106,8 @@
     "chest_inventory_bottom": {
       "textures": "textures/blocks/chest_bottom"
     },
-    "chest_inventory_front": {
-      "textures": "textures/blocks/chest_front"
-    },
-    "chest_inventory_side": {
-      "textures": "textures/blocks/chest_side"
-    },
     "chest_inventory_side1": {
       "textures": "textures/blocks/chest_side1"
-    },
-    "chest_inventory_top": {
-      "textures": "textures/blocks/chest_top"
     },
     "comparator_stone_slab": {
       "textures": [
@@ -165,47 +115,17 @@
         "textures/blocks/comparator_bottom_on"
       ]
     },
-    "comparator_torch": {
-      "textures": [
-        "textures/blocks/redstone_torch_off",
-        "textures/blocks/redstone_torch_on"
-      ]
-    },
-    "comparator_up": {
-      "textures": [
-        "textures/blocks/comparator_off",
-        "textures/blocks/comparator_on"
-      ]
-    },
     "daylight_detector_side": {
       "textures": [
-        "textures/blocks/daylight_detector_inverted_side",
-        "textures/blocks/daylight_detector_side"
+        "textures/blocks/daylight_detector_side",
+        "textures/blocks/daylight_detector_inverted_side"
       ]
-    },
-    "daylight_detector_top": {
-      "textures": [
-        "textures/blocks/daylight_detector_inverted_top",
-        "textures/blocks/daylight_detector_top"
-      ]
-    },
-    "dispenser_front_horizontal": {
-      "textures": "textures/blocks/dispenser_front_horizontal"
-    },
-    "dispenser_front_vertical": {
-      "textures": "textures/blocks/dispenser_front_vertical"
     },
     "dispenser_side": {
       "textures": "textures/blocks/dispenser_back"
     },
     "dispenser_top": {
       "textures": "textures/blocks/dispenser_bottom"
-    },
-    "dropper_front_horizontal": {
-      "textures": "textures/blocks/dropper_front_horizontal"
-    },
-    "dropper_front_vertical": {
-      "textures": "textures/blocks/dropper_front_vertical"
     },
     "dropper_side": {
       "textures": "textures/blocks/dropper_back"
@@ -219,49 +139,8 @@
     "ender_chest_inventory_bottom": {
       "textures": "textures/blocks/ender_chest_bottom"
     },
-    "ender_chest_inventory_front": {
-      "textures": "textures/blocks/ender_chest_front"
-    },
-    "ender_chest_inventory_side": {
-      "textures": "textures/blocks/ender_chest_side"
-    },
     "ender_chest_inventory_side1": {
       "textures": "textures/blocks/ender_chest_side1"
-    },
-    "ender_chest_inventory_top": {
-      "textures": "textures/blocks/ender_chest_top"
-    },
-    "endframe_bottom": {
-      "textures": "textures/blocks/end_stone"
-    },
-    "endframe_eye": {
-      "textures": "textures/blocks/endframe_eye"
-    },
-    "endframe_side": {
-      "textures": "textures/blocks/endframe_side"
-    },
-    "endframe_top": {
-      "textures": "textures/blocks/endframe_top"
-    },
-    "flowing_lava": {
-      "quad": 1,
-      "textures": "textures/blocks/lava_flow"
-    },
-    "flowing_water": {
-      "quad": 1,
-      "textures": "textures/blocks/water_flow"
-    },
-    "flowing_water_grey": {
-      "quad": 1,
-      "textures": "textures/blocks/water_flow_grey"
-    },
-    "furnace": {
-      "textures": [
-        "textures/blocks/furnace_front_off",
-        "textures/blocks/furnace_front_on",
-        "textures/blocks/furnace_side",
-        "textures/blocks/furnace_top"
-      ]
     },
     "furnace_back_off": {
       "textures": "textures/blocks/furnace_back"
@@ -269,20 +148,14 @@
     "furnace_back_on": {
       "textures": "textures/blocks/furnace_side_on"
     },
-    "furnace_front_off": {
-      "textures": "textures/blocks/furnace_front_off"
-    },
-    "furnace_front_on": {
-      "textures": "textures/blocks/furnace_front_on"
-    },
     "furnace_side_off": {
-      "textures": "textures/blocks/furnace_side"
+      "textures": "textures/blocks/furnace_side_off"
     },
     "furnace_side_on": {
       "textures": "textures/blocks/furnace_side_on"
     },
     "furnace_top_off": {
-      "textures": "textures/blocks/furnace_top"
+      "textures": "textures/blocks/furnace_top_off"
     },
     "furnace_top_on": {
       "textures": "textures/blocks/furnace_top_on"
@@ -431,38 +304,17 @@
     "infested_stone_bricks": {
       "textures": "textures/blocks/infested_stone_bricks"
     },
-    "jack_o_lantern_back": {
-      "textures": "textures/blocks/pumpkin_back_on"
-    },
-    "jack_o_lantern_bottom": {
-      "textures": "textures/blocks/pumpkin_bottom_on"
-    },
-    "jack_o_lantern_side": {
-      "textures": "textures/blocks/pumpkin_side_on"
-    },
-    "jack_o_lantern_top": {
-      "textures": "textures/blocks/pumpkin_top_on"
-    },
-    "lever": {
-      "textures": "textures/blocks/lever"
-    },
     "lever_particle": {
       "textures": "textures/blocks/lever_particle"
-    },
-    "melon_stem": {
-      "textures": [
-        "textures/blocks/melon_stem_connected",
-        "textures/blocks/melon_stem_disconnected"
-      ]
     },
     "monster_egg": {
       "textures": [
         "textures/blocks/infested_cobblestone",
-        "textures/blocks/infested_stone_bricks",
-        "textures/blocks/infested_mossy_stone_bricks",
-        "textures/blocks/infested_cracked_stone_bricks",
-        "textures/blocks/infested_chiseled_stone_bricks",
-        "textures/blocks/infested_stone"
+        "textures/blocks/infested_stone",
+        "textures/blocks/infested_stonebrick",
+        "textures/blocks/infested_stonebrick_carved",
+        "textures/blocks/infested_stonebrick_cracked",
+        "textures/blocks/infested_stonebrick_mossy"
       ]
     },
     "observer_bottom": {
@@ -481,12 +333,6 @@
       "textures": [
         "textures/blocks/observer_front",
         "textures/blocks/observer_front_lit"
-      ]
-    },
-    "observer_south": {
-      "textures": [
-        "textures/blocks/observer_back",
-        "textures/blocks/observer_back_lit"
       ]
     },
     "observer_top": {
@@ -513,12 +359,12 @@
     },
     "piston_inner_normal": {
       "textures": [
-        "textures/blocks/piston_inner_normal1"
+        "textures/blocks/piston_inner_normal_on"
       ]
     },
     "piston_inner_sticky": {
       "textures": [
-        "textures/blocks/piston_inner_sticky1"
+        "textures/blocks/piston_inner_sticky_on"
       ]
     },
     "piston_side_normal": {
@@ -531,31 +377,45 @@
         "textures/blocks/piston_side_sticky"
       ]
     },
-    "pumpkin_bottom": {
-      "textures": "textures/blocks/pumpkin_bottom"
-    },
-    "pumpkin_stem": {
+    "pumpkin_back": {
       "textures": [
-        "textures/blocks/pumpkin_stem_connected",
-        "textures/blocks/pumpkin_stem_disconnected"
+        "textures/blocks/pumpkin_back_off",
+        "textures/blocks/pumpkin_back_on",
+        "textures/blocks/pumpkin_side"
+      ]
+    },
+    "pumpkin_bottom": {
+      "textures": [
+        "textures/blocks/pumpkin_bottom_off",
+        "textures/blocks/pumpkin_bottom_on",
+        "textures/blocks/pumpkin_bottom"
+      ]
+    },
+    "pumpkin_face": {
+      "textures": [
+        "textures/blocks/pumpkin_face_off",
+        "textures/blocks/pumpkin_face_on",
+        "textures/blocks/pumpkin_side"
+      ]
+    },
+    "pumpkin_side": {
+      "textures": [
+        "textures/blocks/pumpkin_side_off",
+        "textures/blocks/pumpkin_side_on",
+        "textures/blocks/pumpkin_side"
+      ]
+    },
+    "pumpkin_top": {
+      "textures": [
+        "textures/blocks/pumpkin_top_off",
+        "textures/blocks/pumpkin_top_on",
+        "textures/blocks/pumpkin_top"
       ]
     },
     "repeater_floor": {
       "textures": [
         "textures/blocks/repeater_floor_off",
         "textures/blocks/repeater_floor_on"
-      ]
-    },
-    "repeater_torch": {
-      "textures": [
-        "textures/blocks/redstone_torch_off",
-        "textures/blocks/redstone_torch_on"
-      ]
-    },
-    "repeater_up": {
-      "textures": [
-        "textures/blocks/repeater_off",
-        "textures/blocks/repeater_on"
       ]
     },
     "respawn_anchor_bottom": {
@@ -567,30 +427,13 @@
         "textures/blocks/respawn_anchor_bottom4"
       ]
     },
-    "respawn_anchor_side": {
-      "textures": [
-        "textures/blocks/respawn_anchor_side0",
-        "textures/blocks/respawn_anchor_side1",
-        "textures/blocks/respawn_anchor_side2",
-        "textures/blocks/respawn_anchor_side3",
-        "textures/blocks/respawn_anchor_side4"
-      ]
-    },
     "respawn_anchor_top": {
       "textures": [
+        "textures/blocks/respawn_anchor_top_off",
         "textures/blocks/respawn_anchor_top1",
         "textures/blocks/respawn_anchor_top2",
         "textures/blocks/respawn_anchor_top3",
-        "textures/blocks/respawn_anchor_top4",
-        "textures/blocks/respawn_anchor_top_off"
-      ]
-    },
-    "smoker": {
-      "textures": [
-        "textures/blocks/smoker_front_off",
-        "textures/blocks/smoker_front_on",
-        "textures/blocks/smoker_side",
-        "textures/blocks/smoker_top"
+        "textures/blocks/respawn_anchor_top4"
       ]
     },
     "smoker_bottom_off": {
@@ -598,12 +441,6 @@
     },
     "smoker_bottom_on": {
       "textures": "textures/blocks/smoker_bottom_on"
-    },
-    "smoker_front_off": {
-      "textures": "textures/blocks/smoker_front_off"
-    },
-    "smoker_front_on": {
-      "textures": "textures/blocks/smoker_front_on"
     },
     "smoker_side_off": {
       "textures": "textures/blocks/smoker_side"
@@ -625,9 +462,6 @@
     },
     "trapped_chest_inventory_bottom": {
       "textures": "textures/blocks/trapped_chest_bottom"
-    },
-    "trapped_chest_inventory_front": {
-      "textures": "textures/blocks/trapped_chest_front"
     },
     "trapped_chest_inventory_side": {
       "textures": "textures/blocks/trapped_chest_side"
