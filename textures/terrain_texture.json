@@ -125,13 +125,19 @@
       "textures": "textures/blocks/dispenser_back"
     },
     "dispenser_top": {
-      "textures": "textures/blocks/dispenser_bottom"
+      "textures": [
+        "textures/blocks/dispenser_bottom",
+        "textures/blocks/dispenser_bottom_vertical"
+      ]
     },
     "dropper_side": {
       "textures": "textures/blocks/dropper_back"
     },
     "dropper_top": {
-      "textures": "textures/blocks/dropper_bottom"
+      "textures": [
+        "textures/blocks/dropper_bottom",
+        "textures/blocks/dropper_bottom_vertical"
+      ]
     },
     "ender_chest_inventory_back": {
       "textures": "textures/blocks/ender_chest_back"
@@ -453,9 +459,6 @@
     },
     "smoker_top_on": {
       "textures": "textures/blocks/smoker_top_on"
-    },
-    "snow_layer": {
-      "textures": "textures/blocks/snow_layer"
     },
     "trapped_chest_inventory_back": {
       "textures": "textures/blocks/trapped_chest_back"
