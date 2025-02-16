@@ -9,7 +9,7 @@
         "textures/blocks/anvil_base",
         "textures/blocks/anvil_front_damaged_1",
         "textures/blocks/anvil_front_damaged_2",
-        "textures/blocks/anvil_base"
+        "textures/blocks/anvil_front_damaged_3"
       ]
     },
     "anvil_side": {
@@ -17,7 +17,7 @@
         "textures/blocks/anvil_base",
         "textures/blocks/anvil_side_damaged_1",
         "textures/blocks/anvil_side_damaged_2",
-        "textures/blocks/anvil_base"
+        "textures/blocks/anvil_side_damaged_3"
       ]
     },
     "anvil_top_damaged_x": {
@@ -25,7 +25,7 @@
         "textures/blocks/anvil_top_damaged_0",
         "textures/blocks/anvil_top_damaged_1",
         "textures/blocks/anvil_top_damaged_2",
-        "textures/blocks/anvil_top_damaged_0"
+        "textures/blocks/anvil_top_damaged_3"
       ]
     },
     "bee_nest_bottom": {
@@ -94,6 +94,25 @@
     "blast_furnace_top_on": {
       "textures": "textures/blocks/blast_furnace_top_on"
     },
+    "calibrated_sculk_sensor_back": {
+      "textures": [
+        "textures/blocks/calibrated_sculk_sensor_back"
+      ]
+    },
+    "calibrated_sculk_sensor_bottom": {
+      "textures": [
+        "textures/blocks/calibrated_sculk_sensor_bottom_north",
+        "textures/blocks/calibrated_sculk_sensor_bottom_west",
+        "textures/blocks/calibrated_sculk_sensor_bottom_south",
+        "textures/blocks/calibrated_sculk_sensor_bottom_east"
+      ]
+    },
+    "calibrated_sculk_sensor_side_east": {
+      "textures": "textures/blocks/calibrated_sculk_sensor_side_right"
+    },
+    "calibrated_sculk_sensor_side_west": {
+      "textures": "textures/blocks/calibrated_sculk_sensor_side_left"
+    },
     "cauldron_inner_lava": {
       "textures": "textures/blocks/cauldron_inner_lava"
     },
@@ -129,6 +148,9 @@
         "textures/blocks/dispenser_bottom",
         "textures/blocks/dispenser_bottom_vertical"
       ]
+    },
+    "dropper_front_horizontal": {
+      "textures": "textures/blocks/dropper_front_horizontal"
     },
     "dropper_side": {
       "textures": "textures/blocks/dropper_back"
@@ -354,34 +376,22 @@
       ]
     },
     "piston_bottom_normal": {
-      "textures": [
-        "textures/blocks/piston_bottom_normal"
-      ]
+      "textures": "textures/blocks/piston_bottom_normal"
     },
     "piston_bottom_sticky": {
-      "textures": [
-        "textures/blocks/piston_bottom_sticky"
-      ]
+      "textures": "textures/blocks/piston_bottom_sticky"
     },
     "piston_inner_normal": {
-      "textures": [
-        "textures/blocks/piston_inner_normal_on"
-      ]
+      "textures": "textures/blocks/piston_inner_normal_on"
     },
     "piston_inner_sticky": {
-      "textures": [
-        "textures/blocks/piston_inner_sticky_on"
-      ]
+      "textures": "textures/blocks/piston_inner_sticky_on"
     },
     "piston_side_normal": {
-      "textures": [
-        "textures/blocks/piston_side_normal"
-      ]
+      "textures": "textures/blocks/piston_side_normal"
     },
     "piston_side_sticky": {
-      "textures": [
-        "textures/blocks/piston_side_sticky"
-      ]
+      "textures": "textures/blocks/piston_side_sticky"
     },
     "pumpkin_back": {
       "textures": [
@@ -440,6 +450,51 @@
         "textures/blocks/respawn_anchor_top2",
         "textures/blocks/respawn_anchor_top3",
         "textures/blocks/respawn_anchor_top4"
+      ]
+    },
+    "sculk_catalyst_bottom": {
+      "textures": [
+        "textures/blocks/sculk_catalyst_bottom",
+        "textures/blocks/sculk_catalyst_bottom_bloom"
+      ]
+    },
+    "sculk_sensor_bottom": {
+      "textures": [
+        "textures/blocks/sculk_sensor_bottom",
+        "textures/blocks/sculk_sensor_bottom_active",
+        "textures/blocks/sculk_sensor_bottom_cd"
+      ]
+    },
+    "sculk_sensor_side": {
+      "textures": [
+        "textures/blocks/sculk_sensor_side",
+        "textures/blocks/sculk_sensor_side_active",
+        "textures/blocks/sculk_sensor_side_cd"
+      ]
+    },
+    "sculk_sensor_top": {
+      "textures": [
+        "textures/blocks/sculk_sensor_top",
+        "textures/blocks/sculk_sensor_top_active",
+        "textures/blocks/sculk_sensor_top_cd"
+      ]
+    },
+    "sculk_shrieker_bottom": {
+      "textures": [
+        "textures/blocks/sculk_shrieker_bottom",
+        "textures/blocks/sculk_shrieker_can_summon_bottom"
+      ]
+    },
+    "sculk_shrieker_side": {
+      "textures": [
+        "textures/blocks/sculk_shrieker_side",
+        "textures/blocks/sculk_shrieker_can_summon_side"
+      ]
+    },
+    "sculk_shrieker_top": {
+      "textures": [
+        "textures/blocks/sculk_shrieker_top",
+        "textures/blocks/sculk_shrieker_can_summon_top"
       ]
     },
     "smoker_bottom_off": {
