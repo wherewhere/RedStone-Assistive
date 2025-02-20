@@ -247,7 +247,206 @@
       "west": "trapped_chest_inventory_side1"
     }
   },
-
+  "waxed_chiseled_copper": {
+    "sound": "copper",
+    "textures": "waxed_chiseled_copper"
+  },
+  "waxed_copper": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_copper_block"
+  },
+  "waxed_copper_bulb": {
+    "isotropic": false,
+    "sound": "copper_bulb",
+    "textures": "waxed_copper_bulb"
+  },
+  "waxed_copper_door": {
+    "sound": "copper",
+    "textures": {
+      "down": "waxed_copper_door_bottom",
+      "side": "waxed_copper_door_top",
+      "up": "waxed_copper_door_bottom"
+    }
+  },
+  "waxed_copper_grate": {
+    "sound": "copper_grate",
+    "textures": "waxed_copper_grate"
+  },
+  "waxed_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "waxed_copper_trapdoor"
+  },
+  "waxed_cut_copper": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_cut_copper"
+  },
+  "waxed_cut_copper_slab": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_cut_copper"
+  },
+  "waxed_cut_copper_stairs": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_cut_copper"
+  },
+  "waxed_double_cut_copper_slab": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_cut_copper"
+  },
+  "waxed_exposed_chiseled_copper": {
+    "sound": "copper",
+    "textures": "waxed_exposed_chiseled_copper"
+  },
+  "waxed_exposed_copper": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_exposed_copper"
+  },
+  "waxed_exposed_copper_bulb": {
+    "isotropic": false,
+    "sound": "copper_bulb",
+    "textures": "waxed_exposed_copper_bulb"
+  },
+  "waxed_exposed_copper_door": {
+    "sound": "copper",
+    "textures": {
+      "down": "waxed_exposed_copper_door_bottom",
+      "side": "waxed_exposed_copper_door_top",
+      "up": "waxed_exposed_copper_door_bottom"
+    }
+  },
+  "waxed_exposed_copper_grate": {
+    "sound": "copper_grate",
+    "textures": "waxed_exposed_copper_grate"
+  },
+  "waxed_exposed_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "waxed_exposed_copper_trapdoor"
+  },
+  "waxed_exposed_cut_copper": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_exposed_cut_copper"
+  },
+  "waxed_exposed_cut_copper_slab": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_exposed_cut_copper"
+  },
+  "waxed_exposed_cut_copper_stairs": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_exposed_cut_copper"
+  },
+  "waxed_exposed_double_cut_copper_slab": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_exposed_cut_copper"
+  },
+  "waxed_oxidized_chiseled_copper": {
+    "sound": "copper",
+    "textures": "waxed_oxidized_chiseled_copper"
+  },
+  "waxed_oxidized_copper": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_oxidized_copper"
+  },
+  "waxed_oxidized_copper_bulb": {
+    "isotropic": false,
+    "sound": "copper_bulb",
+    "textures": "waxed_oxidized_copper_bulb"
+  },
+  "waxed_oxidized_copper_door": {
+    "sound": "copper",
+    "textures": {
+      "down": "waxed_oxidized_copper_door_bottom",
+      "side": "waxed_oxidized_copper_door_top",
+      "up": "waxed_oxidized_copper_door_bottom"
+    }
+  },
+  "waxed_oxidized_copper_grate": {
+    "sound": "copper_grate",
+    "textures": "waxed_oxidized_copper_grate"
+  },
+  "waxed_oxidized_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "waxed_oxidized_copper_trapdoor"
+  },
+  "waxed_oxidized_cut_copper": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_oxidized_cut_copper"
+  },
+  "waxed_oxidized_cut_copper_slab": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_oxidized_cut_copper"
+  },
+  "waxed_oxidized_cut_copper_stairs": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_oxidized_cut_copper"
+  },
+  "waxed_oxidized_double_cut_copper_slab": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_oxidized_cut_copper"
+  },
+  "waxed_weathered_chiseled_copper": {
+    "sound": "copper",
+    "textures": "waxed_weathered_chiseled_copper"
+  },
+  "waxed_weathered_copper": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_weathered_copper"
+  },
+  "waxed_weathered_copper_bulb": {
+    "isotropic": false,
+    "sound": "copper_bulb",
+    "textures": "waxed_weathered_copper_bulb"
+  },
+  "waxed_weathered_copper_door": {
+    "sound": "copper",
+    "textures": {
+      "down": "waxed_weathered_copper_door_bottom",
+      "side": "waxed_weathered_copper_door_top",
+      "up": "waxed_weathered_copper_door_bottom"
+    }
+  },
+  "waxed_weathered_copper_grate": {
+    "sound": "copper_grate",
+    "textures": "waxed_weathered_copper_grate"
+  },
+  "waxed_weathered_copper_trapdoor": {
+    "sound": "copper",
+    "textures": "waxed_weathered_copper_trapdoor"
+  },
+  "waxed_weathered_cut_copper": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_weathered_cut_copper"
+  },
+  "waxed_weathered_cut_copper_slab": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_weathered_cut_copper"
+  },
+  "waxed_weathered_cut_copper_stairs": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_weathered_cut_copper"
+  },
+  "waxed_weathered_double_cut_copper_slab": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_weathered_cut_copper"
+  },
   "chemical_heat": {
     "sound": "stone",
     "textures": "chemical_heat"
@@ -271,7 +470,6 @@
     "sound": "wood",
     "textures": "underwater_torch"
   },
-
   "info_update": {
     "sound": "metal",
     "textures": "green_screen"
