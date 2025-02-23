@@ -1,0 +1,10 @@
+{
+  "namespace": "loom_pocket",
+  "vertical_arrow_icon": {
+    "controls": [
+      {
+        "loom_arrow_button@loom.loom_arrow_button": {}
+      }
+    ]
+  }
+}

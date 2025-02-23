@@ -1,0 +1,34 @@
+{
+  "namespace": "trade2",
+  "trade2_arrow_button": {
+    "type": "button",
+    "property_bag": {
+      "#collection_name": "trade2_result_item"
+    },
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "double_pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "double_pressed"
+      }
+    ]
+  },
+  "arrow_right_image": {
+    "controls": [
+      {
+        "trade2_arrow_button@trade2.trade2_arrow_button": {}
+      }
+    ]
+  },
+  "tier_stack_panel": {
+    "bindings": []
+  },
+  "trade_toggle": {
+    "$toggle_enabled_binding_type": "none"
+  }
+}

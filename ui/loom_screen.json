@@ -1,0 +1,28 @@
+{
+  "namespace": "loom",
+  "loom_arrow_button": {
+    "type": "button",
+    "property_bag": {
+      "#collection_name": "loom_result_items"
+    },
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "double_pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "double_pressed"
+      }
+    ]
+  },
+  "arrow_icon": {
+    "controls": [
+      {
+        "loom_arrow_button@loom.loom_arrow_button": {}
+      }
+    ]
+  }
+}

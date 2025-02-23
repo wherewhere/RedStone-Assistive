@@ -1,0 +1,29 @@
+{
+  "namespace": "stonecutter",
+  "stonecutter_arrow_button": {
+    "type": "button",
+    "property_bag": {
+      "#collection_name": "stonecutter_result_items",
+      "#collection_index": 0
+    },
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "double_pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "double_pressed"
+      }
+    ]
+  },
+  "arrow_icon": {
+    "controls": [
+      {
+        "stonecutter_arrow_button@stonecutter.stonecutter_arrow_button": {}
+      }
+    ]
+  }
+}

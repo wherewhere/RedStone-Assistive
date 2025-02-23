@@ -1,0 +1,36 @@
+{
+  "namespace": "crafting",
+  "crafting_arrow_button": {
+    "type": "button",
+    "property_bag": {
+      "#collection_name": "crafting_output_items",
+      "#collection_index": 0
+    },
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.crafting_output_tertiary",
+        "mapping_type": "double_pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.crafting_output_tertiary",
+        "mapping_type": "double_pressed"
+      }
+    ]
+  },
+  "crafting_arrow": {
+    "controls": [
+      {
+        "crafting_arrow_button@crafting.crafting_arrow_button": {}
+      }
+    ]
+  },
+  "crafting_arrow_large": {
+    "controls": [
+      {
+        "crafting_arrow_button@crafting.crafting_arrow_button": {}
+      }
+    ]
+  }
+}

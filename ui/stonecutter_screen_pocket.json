@@ -1,0 +1,10 @@
+{
+  "namespace": "stonecutter_pocket",
+  "vertical_arrow_icon": {
+    "controls": [
+      {
+        "stonecutter_arrow_button@stonecutter.stonecutter_arrow_button": {}
+      }
+    ]
+  }
+}

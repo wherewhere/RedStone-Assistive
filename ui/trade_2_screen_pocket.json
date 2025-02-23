@@ -1,0 +1,10 @@
+{
+  "namespace": "trade2_pocket",
+  "arrow_right_image": {
+    "controls": [
+      {
+        "trade2_arrow_button@trade2.trade2_arrow_button": {}
+      }
+    ]
+  }
+}

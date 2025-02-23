@@ -1,0 +1,10 @@
+{
+  "namespace": "crafting_pocket",
+  "crafting_arrow_down": {
+    "controls": [
+      {
+        "crafting_arrow_button@crafting.crafting_arrow_button": {}
+      }
+    ]
+  }
+}
