@@ -60,6 +60,17 @@
       "west": "chest_inventory_side1"
     }
   },
+  "chiseled_bookshelf" : {
+     "sound" : "chiseled_bookshelf",
+     "textures" : {
+        "down" : "chiseled_bookshelf_bottom",
+        "east" : "chiseled_bookshelf_east",
+        "north" : "chiseled_bookshelf_front",
+        "south" : "chiseled_bookshelf_south",
+        "up" : "chiseled_bookshelf_top",
+        "west" : "chiseled_bookshelf_west"
+     }
+  },
   "ender_chest": {
     "textures": {
       "down": "ender_chest_inventory_bottom",
