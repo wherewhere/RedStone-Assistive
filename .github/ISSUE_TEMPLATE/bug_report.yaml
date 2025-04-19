@@ -1,0 +1,65 @@
+name: Bug report
+description: Create a report to help us improve
+title: "Bug title"
+labels: [bug]
+body:
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Describe the bug
+      description: Please enter a short, clear description of the bug.
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Steps to reproduce the bug
+      description: Please provide any required setup and steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: Please provide a description of what you expected to happen
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots here to help explain your problem
+  - type: dropdown
+    validations:
+      required: true
+    attributes:
+      label: Package version
+      description: Specify the version of RedStone Assistive you're using.
+      options:
+        - "0.1.6"
+        - "0.0.5"
+        - "0.0.4"
+        - "0.0.3"
+        - "0.0.2"
+        - "0.0.1"
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Minecraft version
+      description: Which Minecraft versions did you see the issue on?
+      placeholder: 1.18
+  - type: dropdown
+    validations:
+      required: true
+    attributes:
+      label: Platform
+      description: Which Devices did you see the issue on?
+      options:
+        - "Windows"
+        - "Android"
+        - "iOS"
+        - "PlayStation"
+        - "Nintendo Switch"
+        - "FireOS"
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Enter any other applicable info here
