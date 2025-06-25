@@ -125,8 +125,8 @@
     "chest_inventory_bottom": {
       "textures": "textures/blocks/chest_bottom"
     },
-    "chest_inventory_side1": {
-      "textures": "textures/blocks/chest_side1"
+    "chest_inventory_side_1": {
+      "textures": "textures/blocks/chest_side_1"
     },
     "chiseled_bookshelf_east": {
       "textures": [
@@ -1488,8 +1488,8 @@
     "ender_chest_inventory_bottom": {
       "textures": "textures/blocks/ender_chest_bottom"
     },
-    "ender_chest_inventory_side1": {
-      "textures": "textures/blocks/ender_chest_side1"
+    "ender_chest_inventory_side_1": {
+      "textures": "textures/blocks/ender_chest_side_1"
     },
     "furnace_back_off": {
       "textures": "textures/blocks/furnace_back"
@@ -1845,8 +1845,8 @@
     "trapped_chest_inventory_side": {
       "textures": "textures/blocks/trapped_chest_side"
     },
-    "trapped_chest_inventory_side1": {
-      "textures": "textures/blocks/trapped_chest_side1"
+    "trapped_chest_inventory_side_1": {
+      "textures": "textures/blocks/trapped_chest_side_1"
     },
     "trapped_chest_inventory_top": {
       "textures": "textures/blocks/trapped_chest_top"

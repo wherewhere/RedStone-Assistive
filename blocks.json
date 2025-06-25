@@ -57,7 +57,7 @@
       "north": "chest_inventory_back",
       "south": "chest_inventory_front",
       "up": "chest_inventory_top",
-      "west": "chest_inventory_side1"
+      "west": "chest_inventory_side_1"
     }
   },
   "chiseled_bookshelf" : {
@@ -78,7 +78,7 @@
       "north": "ender_chest_inventory_back",
       "south": "ender_chest_inventory_front",
       "up": "ender_chest_inventory_top",
-      "west": "ender_chest_inventory_side1"
+      "west": "ender_chest_inventory_side_1"
     }
   },
   "furnace": {
@@ -255,7 +255,7 @@
       "north": "trapped_chest_inventory_back",
       "south": "trapped_chest_inventory_front",
       "up": "trapped_chest_inventory_top",
-      "west": "trapped_chest_inventory_side1"
+      "west": "trapped_chest_inventory_side_1"
     }
   },
   "waxed_chiseled_copper": {
