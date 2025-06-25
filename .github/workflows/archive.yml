@@ -1,24 +1,27 @@
-name: Create Archive
+name: Create Package
+
 on:
   push:
   pull_request:
     branches:
       - main
+  workflow_dispatch:
+
 jobs:
-  build:
+  build-and-package:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-      
+
     - name: Archive Package
       uses: TheDoctor0/zip-release@0.7.6
       with:
-        filename: 'BareBones红石显示.mcpack'
-        exclusions: '*.git* /*node_modules/* .editorconfig /Images/* LICENSE *.md'
-        type: 'zip'
-        
+        filename: 'BareBones RedStone Assistive.mcpack'
+        exclusions: '*.git* /*node_modules/* .editorconfig LICENSE *.md'
+        type: zip
+
     - uses: actions/upload-artifact@v4
       with:
-        name: BareBones红石显示
-        path: ./BareBones红石显示.mcpack
+        name: BareBones RedStone Assistive
+        path: './BareBones RedStone Assistive.mcpack'
