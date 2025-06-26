@@ -1659,11 +1659,11 @@
     "monster_egg": {
       "textures": [
         "textures/blocks/infested_cobblestone",
-        "textures/blocks/infested_stone",
-        "textures/blocks/infested_stonebrick",
-        "textures/blocks/infested_stonebrick_carved",
-        "textures/blocks/infested_stonebrick_cracked",
-        "textures/blocks/infested_stonebrick_mossy"
+        "textures/blocks/infested_stone_bricks",
+        "textures/blocks/infested_mossy_stone_bricks",
+        "textures/blocks/infested_cracked_stone_bricks",
+        "textures/blocks/infested_chiseled_stone_bricks",
+        "textures/blocks/infested_stone"
       ]
     },
     "observer_bottom": {
