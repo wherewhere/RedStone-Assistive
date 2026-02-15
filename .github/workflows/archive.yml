@@ -2,26 +2,26 @@ name: Create Package
 
 on:
   push:
+    branches: [main]
   pull_request:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 jobs:
   build-and-package:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v6
 
-    - name: Archive Package
-      uses: TheDoctor0/zip-release@0.7.6
-      with:
-        filename: 'BareBones RedStone Assistive.mcpack'
-        exclusions: '*.git* /*node_modules/* .editorconfig LICENSE *.md'
-        type: zip
+      - name: Archive Package
+        uses: TheDoctor0/zip-release@0.7.6
+        with:
+          filename: BareBones RedStone Assistive.mcpack
+          exclusions: "*.git* /*node_modules/* .editorconfig LICENSE *.md"
+          type: zip
 
-    - uses: actions/upload-artifact@v4
-      with:
-        name: BareBones RedStone Assistive
-        path: './BareBones RedStone Assistive.mcpack'
+      - uses: actions/upload-artifact@v6
+        with:
+          name: BareBones RedStone Assistive
+          path: ./BareBones RedStone Assistive.mcpack

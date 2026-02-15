@@ -1,6 +1,6 @@
 name: Bug report
 description: Create a report to help us improve
-title: "Bug title"
+title: Bug title
 labels: [bug]
 body:
   - type: textarea
@@ -33,13 +33,13 @@ body:
       label: Package version
       description: Specify the version of RedStone Assistive you're using.
       options:
-        - "0.1.7"
-        - "0.1.6"
-        - "0.0.5"
-        - "0.0.4"
-        - "0.0.3"
-        - "0.0.2"
-        - "0.0.1"
+        - 0.1.7
+        - 0.1.6
+        - 0.0.5
+        - 0.0.4
+        - 0.0.3
+        - 0.0.2
+        - 0.0.1
   - type: input
     validations:
       required: true
@@ -54,12 +54,12 @@ body:
       label: Platform
       description: Which Devices did you see the issue on?
       options:
-        - "Windows"
-        - "Android"
-        - "iOS"
-        - "PlayStation"
-        - "Nintendo Switch"
-        - "FireOS"
+        - Windows
+        - Android
+        - iOS
+        - PlayStation
+        - Nintendo Switch
+        - FireOS
   - type: textarea
     attributes:
       label: Additional context
