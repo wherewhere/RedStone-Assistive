@@ -1512,7 +1512,7 @@
     "hopper_inside": {
       "textures": [
         "textures/blocks/hopper_bottom_down",
-        "textures/blocks/hopper_inside",
+        "textures/blocks/hopper_bottom_up",
         "textures/blocks/hopper_bottom_south",
         "textures/blocks/hopper_bottom_north",
         "textures/blocks/hopper_bottom_west",
@@ -1520,7 +1520,7 @@
         "textures/blocks/hopper_inside",
         "textures/blocks/hopper_inside",
         "textures/blocks/hopper_bottom_down_on",
-        "textures/blocks/hopper_inside",
+        "textures/blocks/hopper_bottom_up_on",
         "textures/blocks/hopper_bottom_south_on",
         "textures/blocks/hopper_bottom_north_on",
         "textures/blocks/hopper_bottom_west_on",
@@ -1532,87 +1532,87 @@
     "hopper_outside_east": {
       "textures": [
         "textures/blocks/hopper_outside_down",
-        "textures/blocks/hopper_outside_back",
+        "textures/blocks/hopper_outside_up",
         "textures/blocks/hopper_outside_right",
         "textures/blocks/hopper_outside_left",
         "textures/blocks/hopper_outside_back",
         "textures/blocks/hopper_outside_front",
-        "textures/blocks/hopper_outside_back",
-        "textures/blocks/hopper_outside_back",
+        "textures/blocks/hopper_outside",
+        "textures/blocks/hopper_outside",
         "textures/blocks/hopper_outside_down_on",
-        "textures/blocks/hopper_outside_back_on",
+        "textures/blocks/hopper_outside_up_on",
         "textures/blocks/hopper_outside_right_on",
         "textures/blocks/hopper_outside_left_on",
         "textures/blocks/hopper_outside_back_on",
         "textures/blocks/hopper_outside_front_on",
-        "textures/blocks/hopper_outside_back_on",
-        "textures/blocks/hopper_outside_back_on"
+        "textures/blocks/hopper_outside",
+        "textures/blocks/hopper_outside"
       ]
     },
     "hopper_outside_north": {
       "textures": [
         "textures/blocks/hopper_outside_down",
-        "textures/blocks/hopper_outside_back",
+        "textures/blocks/hopper_outside_up",
         "textures/blocks/hopper_outside_front",
         "textures/blocks/hopper_outside_back",
         "textures/blocks/hopper_outside_right",
         "textures/blocks/hopper_outside_left",
-        "textures/blocks/hopper_outside_back",
-        "textures/blocks/hopper_outside_back",
+        "textures/blocks/hopper_outside",
+        "textures/blocks/hopper_outside",
         "textures/blocks/hopper_outside_down_on",
-        "textures/blocks/hopper_outside_back_on",
+        "textures/blocks/hopper_outside_up_on",
         "textures/blocks/hopper_outside_front_on",
         "textures/blocks/hopper_outside_back_on",
         "textures/blocks/hopper_outside_right_on",
         "textures/blocks/hopper_outside_left_on",
-        "textures/blocks/hopper_outside_back_on",
-        "textures/blocks/hopper_outside_back_on"
+        "textures/blocks/hopper_outside",
+        "textures/blocks/hopper_outside"
       ]
     },
     "hopper_outside_south": {
       "textures": [
         "textures/blocks/hopper_outside_down",
-        "textures/blocks/hopper_outside_back",
+        "textures/blocks/hopper_outside_up",
         "textures/blocks/hopper_outside_back",
         "textures/blocks/hopper_outside_front",
         "textures/blocks/hopper_outside_left",
         "textures/blocks/hopper_outside_right",
-        "textures/blocks/hopper_outside_back",
-        "textures/blocks/hopper_outside_back",
+        "textures/blocks/hopper_outside",
+        "textures/blocks/hopper_outside",
         "textures/blocks/hopper_outside_down_on",
-        "textures/blocks/hopper_outside_back_on",
+        "textures/blocks/hopper_outside_up_on",
         "textures/blocks/hopper_outside_back_on",
         "textures/blocks/hopper_outside_front_on",
         "textures/blocks/hopper_outside_left_on",
         "textures/blocks/hopper_outside_right_on",
-        "textures/blocks/hopper_outside_back_on",
-        "textures/blocks/hopper_outside_back_on"
+        "textures/blocks/hopper_outside",
+        "textures/blocks/hopper_outside"
       ]
     },
     "hopper_outside_west": {
       "textures": [
         "textures/blocks/hopper_outside_down",
-        "textures/blocks/hopper_outside_back",
+        "textures/blocks/hopper_outside_up",
         "textures/blocks/hopper_outside_left",
         "textures/blocks/hopper_outside_right",
         "textures/blocks/hopper_outside_front",
         "textures/blocks/hopper_outside_back",
-        "textures/blocks/hopper_outside_back",
-        "textures/blocks/hopper_outside_back",
+        "textures/blocks/hopper_outside",
+        "textures/blocks/hopper_outside",
         "textures/blocks/hopper_outside_down_on",
-        "textures/blocks/hopper_outside_back_on",
+        "textures/blocks/hopper_outside_up_on",
         "textures/blocks/hopper_outside_left_on",
         "textures/blocks/hopper_outside_right_on",
         "textures/blocks/hopper_outside_front_on",
         "textures/blocks/hopper_outside_back_on",
-        "textures/blocks/hopper_outside_back_on",
-        "textures/blocks/hopper_outside_back_on"
+        "textures/blocks/hopper_outside",
+        "textures/blocks/hopper_outside"
       ]
     },
     "hopper_top": {
       "textures": [
         "textures/blocks/hopper_top_down",
-        "textures/blocks/hopper_top",
+        "textures/blocks/hopper_top_up",
         "textures/blocks/hopper_top_north",
         "textures/blocks/hopper_top_south",
         "textures/blocks/hopper_top_west",
@@ -1620,7 +1620,7 @@
         "textures/blocks/hopper_top",
         "textures/blocks/hopper_top",
         "textures/blocks/hopper_top_down_on",
-        "textures/blocks/hopper_top",
+        "textures/blocks/hopper_top_up_on",
         "textures/blocks/hopper_top_north_on",
         "textures/blocks/hopper_top_south_on",
         "textures/blocks/hopper_top_west_on",
