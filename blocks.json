@@ -1,5 +1,9 @@
 {
-  "format_version": [1, 1, 0],
+  "format_version": [
+    1,
+    1,
+    0
+  ],
   "anvil": {
     "sound": "anvil",
     "textures": {
@@ -60,16 +64,16 @@
       "west": "chest_inventory_side_1"
     }
   },
-  "chiseled_bookshelf" : {
-     "sound" : "chiseled_bookshelf",
-     "textures" : {
-        "down" : "chiseled_bookshelf_bottom",
-        "east" : "chiseled_bookshelf_east",
-        "north" : "chiseled_bookshelf_front",
-        "south" : "chiseled_bookshelf_south",
-        "up" : "chiseled_bookshelf_top",
-        "west" : "chiseled_bookshelf_west"
-     }
+  "chiseled_bookshelf": {
+    "sound": "chiseled_bookshelf",
+    "textures": {
+      "down": "chiseled_bookshelf_bottom",
+      "east": "chiseled_bookshelf_east",
+      "north": "chiseled_bookshelf_front",
+      "south": "chiseled_bookshelf_south",
+      "up": "chiseled_bookshelf_top",
+      "west": "chiseled_bookshelf_west"
+    }
   },
   "ender_chest": {
     "textures": {
@@ -103,17 +107,17 @@
       "west": "hopper_outside_west"
     }
   },
-  "infested_chiseled_stone_bricks" : {
-     "sound" : "stone",
-     "textures" : "infested_chiseled_stone_bricks"
+  "infested_chiseled_stone_bricks": {
+    "sound": "stone",
+    "textures": "infested_chiseled_stone_bricks"
   },
-  "infested_cobblestone" : {
-     "sound" : "stone",
-     "textures" : "infested_cobblestone"
+  "infested_cobblestone": {
+    "sound": "stone",
+    "textures": "infested_cobblestone"
   },
-  "infested_cracked_stone_bricks" : {
-     "sound" : "stone",
-     "textures" : "infested_cracked_stone_bricks"
+  "infested_cracked_stone_bricks": {
+    "sound": "stone",
+    "textures": "infested_cracked_stone_bricks"
   },
   "infested_deepslate": {
     "isotropic": {
@@ -127,17 +131,17 @@
       "up": "infested_deepslate_top"
     }
   },
-  "infested_mossy_stone_bricks" : {
-     "sound" : "stone",
-     "textures" : "infested_mossy_stone_bricks"
+  "infested_mossy_stone_bricks": {
+    "sound": "stone",
+    "textures": "infested_mossy_stone_bricks"
   },
-  "infested_stone" : {
-     "sound" : "stone",
-     "textures" : "infested_stone"
+  "infested_stone": {
+    "sound": "stone",
+    "textures": "infested_stone"
   },
-  "infested_stone_bricks" : {
-     "sound" : "stone",
-     "textures" : "infested_stone_bricks"
+  "infested_stone_bricks": {
+    "sound": "stone",
+    "textures": "infested_stone_bricks"
   },
   "lava_cauldron": {
     "textures": {
@@ -267,10 +271,23 @@
     "sound": "copper",
     "textures": "waxed_copper_block"
   },
+  "waxed_copper_bars": {
+    "sound": "copper",
+    "textures": "waxed_copper_bars"
+  },
   "waxed_copper_bulb": {
     "isotropic": false,
     "sound": "copper_bulb",
     "textures": "waxed_copper_bulb"
+  },
+  "waxed_copper_chain": {
+    "carried_textures": "waxed_copper_chain_carried",
+    "sound": "chain",
+    "textures": {
+      "down": "waxed_copper_chain1",
+      "side": "waxed_copper_chain2",
+      "up": "waxed_copper_chain1"
+    }
   },
   "waxed_copper_door": {
     "sound": "copper",
@@ -283,6 +300,11 @@
   "waxed_copper_grate": {
     "sound": "copper_grate",
     "textures": "waxed_copper_grate"
+  },
+  "waxed_copper_lantern": {
+    "carried_textures": "waxed_copper_lantern_carried",
+    "sound": "lantern",
+    "textures": "waxed_copper_lantern"
   },
   "waxed_copper_trapdoor": {
     "sound": "copper",
@@ -317,10 +339,23 @@
     "sound": "copper",
     "textures": "waxed_exposed_copper"
   },
+  "waxed_exposed_copper_bars": {
+    "sound": "copper",
+    "textures": "waxed_exposed_copper_bars"
+  },
   "waxed_exposed_copper_bulb": {
     "isotropic": false,
     "sound": "copper_bulb",
     "textures": "waxed_exposed_copper_bulb"
+  },
+  "waxed_exposed_copper_chain": {
+    "carried_textures": "waxed_exposed_copper_chain_carried",
+    "sound": "chain",
+    "textures": {
+      "down": "waxed_exposed_copper_chain1",
+      "side": "waxed_exposed_copper_chain2",
+      "up": "waxed_exposed_copper_chain1"
+    }
   },
   "waxed_exposed_copper_door": {
     "sound": "copper",
@@ -333,6 +368,11 @@
   "waxed_exposed_copper_grate": {
     "sound": "copper_grate",
     "textures": "waxed_exposed_copper_grate"
+  },
+  "waxed_exposed_copper_lantern": {
+    "carried_textures": "waxed_exposed_copper_lantern_carried",
+    "sound": "lantern",
+    "textures": "waxed_exposed_copper_lantern"
   },
   "waxed_exposed_copper_trapdoor": {
     "sound": "copper",
@@ -358,6 +398,16 @@
     "sound": "copper",
     "textures": "waxed_exposed_cut_copper"
   },
+  "waxed_exposed_lightning_rod": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_exposed_lightning_rod"
+  },
+  "waxed_lightning_rod": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_lightning_rod"
+  },
   "waxed_oxidized_chiseled_copper": {
     "sound": "copper",
     "textures": "waxed_oxidized_chiseled_copper"
@@ -367,10 +417,23 @@
     "sound": "copper",
     "textures": "waxed_oxidized_copper"
   },
+  "waxed_oxidized_copper_bars": {
+    "sound": "copper",
+    "textures": "waxed_oxidized_copper_bars"
+  },
   "waxed_oxidized_copper_bulb": {
     "isotropic": false,
     "sound": "copper_bulb",
     "textures": "waxed_oxidized_copper_bulb"
+  },
+  "waxed_oxidized_copper_chain": {
+    "carried_textures": "waxed_oxidized_copper_chain_carried",
+    "sound": "chain",
+    "textures": {
+      "down": "waxed_oxidized_copper_chain1",
+      "side": "waxed_oxidized_copper_chain2",
+      "up": "waxed_oxidized_copper_chain1"
+    }
   },
   "waxed_oxidized_copper_door": {
     "sound": "copper",
@@ -383,6 +446,11 @@
   "waxed_oxidized_copper_grate": {
     "sound": "copper_grate",
     "textures": "waxed_oxidized_copper_grate"
+  },
+  "waxed_oxidized_copper_lantern": {
+    "carried_textures": "waxed_oxidized_copper_lantern_carried",
+    "sound": "lantern",
+    "textures": "waxed_oxidized_copper_lantern"
   },
   "waxed_oxidized_copper_trapdoor": {
     "sound": "copper",
@@ -408,6 +476,11 @@
     "sound": "copper",
     "textures": "waxed_oxidized_cut_copper"
   },
+  "waxed_oxidized_lightning_rod": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_oxidized_lightning_rod"
+  },
   "waxed_weathered_chiseled_copper": {
     "sound": "copper",
     "textures": "waxed_weathered_chiseled_copper"
@@ -417,10 +490,23 @@
     "sound": "copper",
     "textures": "waxed_weathered_copper"
   },
+  "waxed_weathered_copper_bars": {
+    "sound": "copper",
+    "textures": "waxed_weathered_copper_bars"
+  },
   "waxed_weathered_copper_bulb": {
     "isotropic": false,
     "sound": "copper_bulb",
     "textures": "waxed_weathered_copper_bulb"
+  },
+  "waxed_weathered_copper_chain": {
+    "carried_textures": "waxed_weathered_copper_chain_carried",
+    "sound": "chain",
+    "textures": {
+      "down": "waxed_weathered_copper_chain1",
+      "side": "waxed_weathered_copper_chain2",
+      "up": "waxed_weathered_copper_chain1"
+    }
   },
   "waxed_weathered_copper_door": {
     "sound": "copper",
@@ -433,6 +519,11 @@
   "waxed_weathered_copper_grate": {
     "sound": "copper_grate",
     "textures": "waxed_weathered_copper_grate"
+  },
+  "waxed_weathered_copper_lantern": {
+    "carried_textures": "waxed_weathered_copper_lantern_carried",
+    "sound": "lantern",
+    "textures": "waxed_weathered_copper_lantern"
   },
   "waxed_weathered_copper_trapdoor": {
     "sound": "copper",
@@ -457,6 +548,11 @@
     "isotropic": false,
     "sound": "copper",
     "textures": "waxed_weathered_cut_copper"
+  },
+  "waxed_weathered_lightning_rod": {
+    "isotropic": false,
+    "sound": "copper",
+    "textures": "waxed_weathered_lightning_rod"
   },
   "chemical_heat": {
     "sound": "stone",

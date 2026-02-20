@@ -1854,6 +1854,9 @@
     "waxed_chiseled_copper": {
       "textures": "textures/blocks/waxed_chiseled_copper"
     },
+    "waxed_copper_bars": {
+      "textures": "textures/blocks/waxed_copper_bars"
+    },
     "waxed_copper_block": {
       "textures": "textures/blocks/waxed_copper_block"
     },
@@ -1865,6 +1868,15 @@
         "textures/blocks/waxed_copper_bulb_lit_powered"
       ]
     },
+    "waxed_copper_chain1": {
+      "textures": "textures/blocks/waxed_copper_chain1"
+    },
+    "waxed_copper_chain2": {
+      "textures": "textures/blocks/waxed_copper_chain2"
+    },
+    "waxed_copper_chain_carried": {
+      "textures": "textures/items/waxed_copper_chain"
+    },
     "waxed_copper_door_bottom": {
       "textures": "textures/blocks/waxed_copper_door_bottom"
     },
@@ -1873,6 +1885,12 @@
     },
     "waxed_copper_grate": {
       "textures": "textures/blocks/waxed_copper_grate"
+    },
+    "waxed_copper_lantern": {
+      "textures": "textures/blocks/waxed_copper_lantern"
+    },
+    "waxed_copper_lantern_carried": {
+      "textures": "textures/items/waxed_copper_lantern"
     },
     "waxed_copper_trapdoor": {
       "textures": "textures/blocks/waxed_copper_trapdoor"
@@ -1883,6 +1901,9 @@
     "waxed_exposed_chiseled_copper": {
       "textures": "textures/blocks/waxed_exposed_chiseled_copper"
     },
+    "waxed_exposed_copper_bars": {
+      "textures": "textures/blocks/waxed_exposed_copper_bars"
+    },
     "waxed_exposed_copper_bulb": {
       "textures": [
         "textures/blocks/waxed_exposed_copper_bulb",
@@ -1890,6 +1911,15 @@
         "textures/blocks/waxed_exposed_copper_bulb_powered",
         "textures/blocks/waxed_exposed_copper_bulb_lit_powered"
       ]
+    },
+    "waxed_exposed_copper_chain1": {
+      "textures": "textures/blocks/waxed_exposed_copper_chain1"
+    },
+    "waxed_exposed_copper_chain2": {
+      "textures": "textures/blocks/waxed_exposed_copper_chain2"
+    },
+    "waxed_exposed_copper_chain_carried": {
+      "textures": "textures/items/waxed_exposed_copper_chain"
     },
     "waxed_exposed_copper_door_bottom": {
       "textures": "textures/blocks/waxed_exposed_copper_door_bottom"
@@ -1900,6 +1930,12 @@
     "waxed_exposed_copper_grate": {
       "textures": "textures/blocks/waxed_exposed_copper_grate"
     },
+    "waxed_exposed_copper_lantern": {
+      "textures": "textures/blocks/waxed_exposed_copper_lantern"
+    },
+    "waxed_exposed_copper_lantern_carried": {
+      "textures": "textures/items/waxed_exposed_copper_lantern"
+    },
     "waxed_exposed_copper_trapdoor": {
       "textures": "textures/blocks/waxed_exposed_copper_trapdoor"
     },
@@ -1909,8 +1945,17 @@
     "waxed_exposed_cut_copper": {
       "textures": "textures/blocks/waxed_exposed_cut_copper"
     },
+    "waxed_exposed_lightning_rod": {
+      "textures": "textures/blocks/waxed_exposed_lightning_rod"
+    },
+    "waxed_lightning_rod": {
+      "textures": "textures/blocks/waxed_lightning_rod"
+    },
     "waxed_oxidized_chiseled_copper": {
       "textures": "textures/blocks/waxed_oxidized_chiseled_copper"
+    },
+    "waxed_oxidized_copper_bars": {
+      "textures": "textures/blocks/waxed_oxidized_copper_bars"
     },
     "waxed_oxidized_copper_bulb": {
       "textures": [
@@ -1919,6 +1964,15 @@
         "textures/blocks/waxed_oxidized_copper_bulb_powered",
         "textures/blocks/waxed_oxidized_copper_bulb_lit_powered"
       ]
+    },
+    "waxed_oxidized_copper_chain1": {
+      "textures": "textures/blocks/waxed_oxidized_copper_chain1"
+    },
+    "waxed_oxidized_copper_chain2": {
+      "textures": "textures/blocks/waxed_oxidized_copper_chain2"
+    },
+    "waxed_oxidized_copper_chain_carried": {
+      "textures": "textures/items/waxed_oxidized_copper_chain"
     },
     "waxed_oxidized_copper_door_bottom": {
       "textures": "textures/blocks/waxed_oxidized_copper_door_bottom"
@@ -1929,6 +1983,12 @@
     "waxed_oxidized_copper_grate": {
       "textures": "textures/blocks/waxed_oxidized_copper_grate"
     },
+    "waxed_oxidized_copper_lantern": {
+      "textures": "textures/blocks/waxed_oxidized_copper_lantern"
+    },
+    "waxed_oxidized_copper_lantern_carried": {
+      "textures": "textures/items/waxed_oxidized_copper_lantern"
+    },
     "waxed_oxidized_copper_trapdoor": {
       "textures": "textures/blocks/waxed_oxidized_copper_trapdoor"
     },
@@ -1938,8 +1998,14 @@
     "waxed_oxidized_cut_copper": {
       "textures": "textures/blocks/waxed_oxidized_cut_copper"
     },
+    "waxed_oxidized_lightning_rod": {
+      "textures": "textures/blocks/waxed_oxidized_lightning_rod"
+    },
     "waxed_weathered_chiseled_copper": {
       "textures": "textures/blocks/waxed_weathered_chiseled_copper"
+    },
+    "waxed_weathered_copper_bars": {
+      "textures": "textures/blocks/waxed_weathered_copper_bars"
     },
     "waxed_weathered_copper_bulb": {
       "textures": [
@@ -1948,6 +2014,15 @@
         "textures/blocks/waxed_weathered_copper_bulb_powered",
         "textures/blocks/waxed_weathered_copper_bulb_lit_powered"
       ]
+    },
+    "waxed_weathered_copper_chain1": {
+      "textures": "textures/blocks/waxed_weathered_copper_chain1"
+    },
+    "waxed_weathered_copper_chain2": {
+      "textures": "textures/blocks/waxed_weathered_copper_chain2"
+    },
+    "waxed_weathered_copper_chain_carried": {
+      "textures": "textures/items/waxed_weathered_copper_chain"
     },
     "waxed_weathered_copper_door_bottom": {
       "textures": "textures/blocks/waxed_weathered_copper_door_bottom"
@@ -1958,6 +2033,12 @@
     "waxed_weathered_copper_grate": {
       "textures": "textures/blocks/waxed_weathered_copper_grate"
     },
+    "waxed_weathered_copper_lantern": {
+      "textures": "textures/blocks/waxed_weathered_copper_lantern"
+    },
+    "waxed_weathered_copper_lantern_carried": {
+      "textures": "textures/items/waxed_weathered_copper_lantern"
+    },
     "waxed_weathered_copper_trapdoor": {
       "textures": "textures/blocks/waxed_weathered_copper_trapdoor"
     },
@@ -1966,6 +2047,9 @@
     },
     "waxed_weathered_cut_copper": {
       "textures": "textures/blocks/waxed_weathered_cut_copper"
+    },
+    "waxed_weathered_lightning_rod": {
+      "textures": "textures/blocks/waxed_weathered_lightning_rod"
     },
     "chemical_heat": {
       "textures": "textures/blocks/chemical_heat"
