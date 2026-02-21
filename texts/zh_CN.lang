@@ -1,3 +1,7 @@
+## 包内容
+pack.name=§lBare Bones 红石显示 0.1.8 MC 1.21.130
+pack.description=§l基于 Bare Bones 1.4.19 参考XeKr红显\n§l§6作者wherewhere可以在B站和酷安找到
+
 ## 教育版内容，提取自 1.21.51 安装包
 action.interact.balloon=连接
 action.interact.unballoon=分离
@@ -392,7 +396,6 @@ tile.pale_oak_standing_sign.name=苍白橡木告示牌
 tile.pale_oak_wall_sign.name=墙上的苍白橡木告示牌
 tile.double_stone_slab3.andesite.smooth.name=磨制安山岩双台阶
 tile.double_stone_slab3.diorite.smooth.name=磨制闪长岩双台阶
-tile.double_stone_slab3.granite.smooth.name=磨制花岗岩双台阶
 tile.double_stone_slab3.granite.smooth.name=磨制花岗岩双台阶
 tile.polished_tuff_double_slab.name=磨制凝灰岩双台阶
 tile.double_stone_slab2.prismarine.bricks.name=海晶石砖双台阶

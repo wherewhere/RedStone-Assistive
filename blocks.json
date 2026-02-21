@@ -1,9 +1,5 @@
 {
-  "format_version": [
-    1,
-    1,
-    0
-  ],
+  "format_version": [1, 1, 0],
   "anvil": {
     "sound": "anvil",
     "textures": {
@@ -75,6 +71,18 @@
       "west": "chiseled_bookshelf_west"
     }
   },
+  "copper_chest": {
+    "isotropic": false,
+    "sound": "copper_chest",
+    "textures": {
+      "down": "copper_chest_inventory_bottom",
+      "east": "copper_chest_inventory_side",
+      "north": "copper_chest_inventory_back",
+      "south": "copper_chest_inventory_front",
+      "up": "copper_chest_inventory_top",
+      "west": "copper_chest_inventory_side_1"
+    }
+  },
   "ender_chest": {
     "textures": {
       "down": "ender_chest_inventory_bottom",
@@ -83,6 +91,18 @@
       "south": "ender_chest_inventory_front",
       "up": "ender_chest_inventory_top",
       "west": "ender_chest_inventory_side_1"
+    }
+  },
+  "exposed_copper_chest": {
+    "isotropic": false,
+    "sound": "copper_chest",
+    "textures": {
+      "down": "exposed_copper_chest_inventory_bottom",
+      "east": "exposed_copper_chest_inventory_side",
+      "north": "exposed_copper_chest_inventory_back",
+      "south": "exposed_copper_chest_inventory_front",
+      "up": "exposed_copper_chest_inventory_top",
+      "west": "exposed_copper_chest_inventory_side_1"
     }
   },
   "furnace": {
@@ -197,6 +217,18 @@
       "west": "smoker_side_on"
     }
   },
+  "oxidized_copper_chest": {
+    "isotropic": false,
+    "sound": "copper_chest_oxidized",
+    "textures": {
+      "down": "oxidized_copper_chest_inventory_bottom",
+      "east": "oxidized_copper_chest_inventory_side",
+      "north": "oxidized_copper_chest_inventory_back",
+      "south": "oxidized_copper_chest_inventory_front",
+      "up": "oxidized_copper_chest_inventory_top",
+      "west": "oxidized_copper_chest_inventory_side_1"
+    }
+  },
   "piston": {
     "carried_textures": {
       "down": "piston_bottom_normal",
@@ -289,6 +321,18 @@
       "up": "waxed_copper_chain1"
     }
   },
+  "waxed_copper_chest": {
+    "isotropic": false,
+    "sound": "copper_chest",
+    "textures": {
+      "down": "waxed_copper_chest_inventory_bottom",
+      "east": "waxed_copper_chest_inventory_side",
+      "north": "waxed_copper_chest_inventory_back",
+      "south": "waxed_copper_chest_inventory_front",
+      "up": "waxed_copper_chest_inventory_top",
+      "west": "waxed_copper_chest_inventory_side_1"
+    }
+  },
   "waxed_copper_door": {
     "sound": "copper",
     "textures": {
@@ -296,6 +340,10 @@
       "side": "waxed_copper_door_top",
       "up": "waxed_copper_door_bottom"
     }
+  },
+  "waxed_copper_golem_statue": {
+    "sound": "copper_golem_statue",
+    "textures": "waxed_copper_block"
   },
   "waxed_copper_grate": {
     "sound": "copper_grate",
@@ -357,6 +405,18 @@
       "up": "waxed_exposed_copper_chain1"
     }
   },
+  "waxed_exposed_copper_chest": {
+    "isotropic": false,
+    "sound": "copper_chest",
+    "textures": {
+      "down": "waxed_exposed_copper_chest_inventory_bottom",
+      "east": "waxed_exposed_copper_chest_inventory_side",
+      "north": "waxed_exposed_copper_chest_inventory_back",
+      "south": "waxed_exposed_copper_chest_inventory_front",
+      "up": "waxed_exposed_copper_chest_inventory_top",
+      "west": "waxed_exposed_copper_chest_inventory_side_1"
+    }
+  },
   "waxed_exposed_copper_door": {
     "sound": "copper",
     "textures": {
@@ -364,6 +424,10 @@
       "side": "waxed_exposed_copper_door_top",
       "up": "waxed_exposed_copper_door_bottom"
     }
+  },
+  "waxed_exposed_copper_golem_statue": {
+    "sound": "copper_golem_statue",
+    "textures": "waxed_exposed_copper"
   },
   "waxed_exposed_copper_grate": {
     "sound": "copper_grate",
@@ -435,6 +499,18 @@
       "up": "waxed_oxidized_copper_chain1"
     }
   },
+  "waxed_oxidized_copper_chest": {
+    "isotropic": false,
+    "sound": "copper_chest_oxidized",
+    "textures": {
+      "down": "waxed_oxidized_copper_chest_inventory_bottom",
+      "east": "waxed_oxidized_copper_chest_inventory_side",
+      "north": "waxed_oxidized_copper_chest_inventory_back",
+      "south": "waxed_oxidized_copper_chest_inventory_front",
+      "up": "waxed_oxidized_copper_chest_inventory_top",
+      "west": "waxed_oxidized_copper_chest_inventory_side_1"
+    }
+  },
   "waxed_oxidized_copper_door": {
     "sound": "copper",
     "textures": {
@@ -442,6 +518,10 @@
       "side": "waxed_oxidized_copper_door_top",
       "up": "waxed_oxidized_copper_door_bottom"
     }
+  },
+  "waxed_oxidized_copper_golem_statue": {
+    "sound": "copper_golem_statue",
+    "textures": "waxed_oxidized_copper"
   },
   "waxed_oxidized_copper_grate": {
     "sound": "copper_grate",
@@ -508,6 +588,18 @@
       "up": "waxed_weathered_copper_chain1"
     }
   },
+  "waxed_weathered_copper_chest": {
+    "isotropic": false,
+    "sound": "copper_chest_weathered",
+    "textures": {
+      "down": "waxed_weathered_copper_chest_inventory_bottom",
+      "east": "waxed_weathered_copper_chest_inventory_side",
+      "north": "waxed_weathered_copper_chest_inventory_back",
+      "south": "waxed_weathered_copper_chest_inventory_front",
+      "up": "waxed_weathered_copper_chest_inventory_top",
+      "west": "waxed_weathered_copper_chest_inventory_side_1"
+    }
+  },
   "waxed_weathered_copper_door": {
     "sound": "copper",
     "textures": {
@@ -515,6 +607,10 @@
       "side": "waxed_weathered_copper_door_top",
       "up": "waxed_weathered_copper_door_bottom"
     }
+  },
+  "waxed_weathered_copper_golem_statue": {
+    "sound": "copper_golem_statue",
+    "textures": "waxed_weathered_copper"
   },
   "waxed_weathered_copper_grate": {
     "sound": "copper_grate",
@@ -553,6 +649,18 @@
     "isotropic": false,
     "sound": "copper",
     "textures": "waxed_weathered_lightning_rod"
+  },
+  "weathered_copper_chest": {
+    "isotropic": false,
+    "sound": "copper_chest_weathered",
+    "textures": {
+      "down": "weathered_copper_chest_inventory_bottom",
+      "east": "weathered_copper_chest_inventory_side",
+      "north": "weathered_copper_chest_inventory_back",
+      "south": "weathered_copper_chest_inventory_front",
+      "up": "weathered_copper_chest_inventory_top",
+      "west": "weathered_copper_chest_inventory_side_1"
+    }
   },
   "chemical_heat": {
     "sound": "stone",
